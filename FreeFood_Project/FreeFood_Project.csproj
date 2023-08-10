@@ -90,6 +90,9 @@
 	  <MauiXaml Update="UserPages\AllBoxesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="UserPages\AllCompanyPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="UserPages\DetailBoxesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

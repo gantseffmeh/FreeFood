@@ -43,8 +43,8 @@ public static class MauiProgram
         builder.Services.AddSingleton<FavouritesUserPage>();
         builder.Services.AddSingleton<FavouritesViewModel>();
 
-        builder.Services.AddSingleton<SettingsUserPage>();
-        builder.Services.AddSingleton<SettingsUserViewModel>();
+        builder.Services.AddTransient<SettingsUserPage>();
+        builder.Services.AddTransient<SettingsUserViewModel>();
 
         builder.Services.AddSingleton<DetailBoxesPage>();
         builder.Services.AddSingleton<DetailBoxesViewModel>();
@@ -52,6 +52,11 @@ public static class MauiProgram
         builder.Services.AddSingleton<DetailCompanyPage>();
         builder.Services.AddSingleton<DetailCompanyViewModel>();
 
+        builder.Services.AddSingleton<AllBoxesPage>();
+        builder.Services.AddSingleton<AllBoxesViewModel>();
+
+        builder.Services.AddSingleton<AllCompanyPage>();
+        builder.Services.AddSingleton<AllCompanyViewModel>();
         return builder.Build();
 	}
 }

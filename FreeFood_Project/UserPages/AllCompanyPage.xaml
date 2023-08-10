@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.UserPages.AllCompanyPage"
+             Title="Список компаний"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:AllCompanyViewModel"
+             xmlns:cards="clr-namespace:FreeFood_Project.Cards"
+             BackgroundColor="AliceBlue"
+             Shell.BackgroundColor="LightGreen"
+             Shell.TitleColor="Black">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Компании" FontSize="40" TextColor="Black" HorizontalOptions="Center"/>
+            <CollectionView 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding Companies}"
+                        SelectionMode="None"
+                        Margin="10"
+                        >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="cards:CompanyCard">
+                        <Grid Padding="10">
+                            <Frame HeightRequest="123">
+                                <Grid Padding="0"
+                                  ColumnDefinitions="80,200">
+                                    <Image Source="company_icon.png"
+                                           Aspect="AspectFill"
+                                           HeightRequest="125"
+                                           WidthRequest="125"/>
+                                    <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
+                                        <Label Text="{Binding Address}" FontSize="13" TextColor="Black" HorizontalOptions="Center"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

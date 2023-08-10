@@ -10,6 +10,12 @@
         <member name="P:FreeFood_Project.ViewModel.AllBoxesViewModel.Boxes">
             <inheritdoc cref="F:FreeFood_Project.ViewModel.AllBoxesViewModel.boxes"/>
         </member>
+        <member name="T:FreeFood_Project.ViewModel.AllCompanyViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.AllCompanyViewModel.Companies">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.AllCompanyViewModel.companies"/>
+        </member>
         <member name="T:FreeFood_Project.ViewModel.DetailBoxesViewModel">
             <inheritdoc/>
         </member>
@@ -41,6 +47,8 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.User_id">
             <inheritdoc cref="F:FreeFood_Project.ViewModel.MainUserViewModel.user_id"/>
@@ -63,6 +71,18 @@
         <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompanyCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompany(FreeFood_Project.Cards.CompanyCard)"/>.</summary>
         </member>
+        <member name="F:FreeFood_Project.ViewModel.MainUserViewModel.goToAllBoxesPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllBoxesPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllBoxesPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllBoxesPage(System.Collections.ObjectModel.ObservableCollection{FreeFood_Project.Cards.BoxCard})"/>.</summary>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.MainUserViewModel.goToAllCompanyPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllCompanyPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllCompanyPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllCompanyPage(System.Collections.ObjectModel.ObservableCollection{FreeFood_Project.Cards.CompanyCard})"/>.</summary>
+        </member>
         <member name="T:FreeFood_Project.ViewModel.MainViewModel">
             <inheritdoc/>
         </member>
@@ -84,7 +104,7 @@
             <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPageCommand"/>.</summary>
         </member>
         <member name="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPageCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPage"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPage"/>.</summary>
         </member>
         <member name="F:FreeFood_Project.ViewModel.ProfileUserViewModel.goToAboutPageCommand">
             <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToAboutPageCommand"/>.</summary>
@@ -149,6 +169,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Boxes">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Boxes" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Companies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Companies" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Box">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Box" generated properties.</summary>
         </member>
@@ -157,9 +180,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User_id">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User_id" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Companies">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Companies" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User" generated properties.</summary>
@@ -179,6 +199,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Boxes">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Boxes" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Companies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Companies" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Box">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Box" generated properties.</summary>
         </member>
@@ -187,9 +210,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User_id">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User_id" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Companies">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Companies" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User" generated properties.</summary>

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace FreeFood_Project.ViewModel;
 
+[QueryProperty("Boxes", "Boxes")]
 public partial class AllBoxesViewModel : ObservableObject
 {
     [ObservableProperty]

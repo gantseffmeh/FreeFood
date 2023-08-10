@@ -31,16 +31,22 @@
                 <Label Grid.Column="0" 
                    Grid.Row="0"
                 Text="Компании"
+               FontSize="15"
                HorizontalOptions="Center"
                VerticalOptions="Center"
                    TextColor="Black"/>
                 <Label Grid.Column="1"
                    Grid.Row="0"
                    Text="Увидеть все"
+                   FontSize="15"
+                   FontAttributes="Bold"
                    HorizontalOptions="End"
                    VerticalOptions="Center" 
                    TextColor="Black">
-                    
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToAllCompanyPageCommand}"
+                                              CommandParameter="{Binding Companies}"/>
+                    </Label.GestureRecognizers>
                 </Label>
 
                 <CollectionView 
@@ -93,15 +99,23 @@
                 <Label Grid.Column="0" 
                    Grid.Row="0"
                 Text="Популярное"
+                FontSize="15"
                HorizontalOptions="Center"
                VerticalOptions="Center"
                    TextColor="Black"/>
                 <Label Grid.Column="1"
                    Grid.Row="0"
                    Text="Увидеть все"
+                   FontSize="15"
+                   FontAttributes="Bold"
                    HorizontalOptions="End"
                    VerticalOptions="Center"
-                   TextColor="Black"/>
+                   TextColor="Black">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToAllBoxesPageCommand}"
+                                              CommandParameter="{Binding Boxes}"/>
+                    </Label.GestureRecognizers>
+                </Label>
 
                 <CollectionView 
                         Grid.Row="1"
@@ -151,15 +165,23 @@
                 <Label Grid.Column="0" 
                    Grid.Row="0"
                 Text="Завтраки"
+                       FontSize="15"
                HorizontalOptions="Center"
                VerticalOptions="Center"
                    TextColor="Black"/>
                 <Label Grid.Column="1"
                    Grid.Row="0"
                    Text="Увидеть все"
+                       FontSize="15"
+                   FontAttributes="Bold"
                    HorizontalOptions="End"
                    VerticalOptions="Center"
-                   TextColor="Black"/>
+                   TextColor="Black">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToAllBoxesPageCommand}"
+                                              CommandParameter="{Binding Boxes}"/>
+                    </Label.GestureRecognizers>
+                </Label>
 
                 <CollectionView 
                         Grid.Row="1"
@@ -210,14 +232,22 @@
                    Grid.Row="0"
                 Text="Обеды"
                HorizontalOptions="Center"
+                       FontSize="15"
                VerticalOptions="Center"
                    TextColor="Black"/>
                 <Label Grid.Column="1"
                    Grid.Row="0"
                    Text="Увидеть все"
                    HorizontalOptions="End"
+                       FontSize="15"
+                   FontAttributes="Bold"
                    VerticalOptions="Center"
-                   TextColor="Black"/>
+                   TextColor="Black">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GoToAllBoxesPageCommand}"
+                                              CommandParameter="{Binding Boxes}"/>
+                    </Label.GestureRecognizers>
+                </Label>
 
                 <CollectionView 
                         Grid.Row="1"

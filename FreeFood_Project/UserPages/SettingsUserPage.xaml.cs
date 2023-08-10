@@ -1,3 +1,4 @@
+using FreeFood_Project.Pages;
 using FreeFood_Project.ViewModel;
 
 namespace FreeFood_Project.UserPages;
@@ -9,4 +10,5 @@ public partial class SettingsUserPage : ContentPage
 		InitializeComponent();
 		BindingContext = vm;
 	}
+
 }

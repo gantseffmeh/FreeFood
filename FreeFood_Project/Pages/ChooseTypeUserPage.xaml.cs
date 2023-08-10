@@ -10,4 +10,5 @@ public partial class ChooseTypeUserPage : ContentPage
 		BindingContext = vm;
 	}
 
+    
 }

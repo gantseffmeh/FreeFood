@@ -12,6 +12,7 @@ public partial class MainViewModel : ObservableObject
 {
 
 
+    public MainViewModel() { }
 
     [RelayCommand]
     async Task GoToSignInPage(string type)

@@ -29,6 +29,8 @@ public partial class SettingsUserViewModel : ObservableObject
     [RelayCommand]
     async Task LogOut()
     {
+        
         await Shell.Current.GoToAsync($"//{nameof(ChooseTypeUserPage)}");
+        Application.Current.MainPage = new AppShell();
     }
 }

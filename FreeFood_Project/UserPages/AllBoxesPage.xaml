@@ -2,11 +2,49 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreeFood_Project.UserPages.AllBoxesPage"
-             Title="AllBoxesPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="Список боксов"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:AllBoxesViewModel"
+             xmlns:cards="clr-namespace:FreeFood_Project.Cards"
+             BackgroundColor="AliceBlue"
+             Shell.BackgroundColor="LightGreen"
+             Shell.TitleColor="Black">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Боксы" FontSize="40" TextColor="Black" HorizontalOptions="Center"/>
+            <CollectionView 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding Boxes}"
+                        SelectionMode="None"
+                        Margin="10"
+                        >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="cards:BoxCard">
+                        <Grid Padding="10">
+                            <Frame HeightRequest="123">
+                                <Grid Padding="0"
+                                  ColumnDefinitions="80,200">
+                                    <Image Source="box_icon.png"
+                                           Aspect="AspectFill"
+                                           HeightRequest="125"
+                                           WidthRequest="125"/>
+                                    <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
+                                        <Label Text="{Binding Describe}" FontSize="13" TextColor="Black" HorizontalOptions="Center"/>
+                                        <Label Text="{Binding Price}" FontSize="10" TextColor="Black" HorizontalOptions="Center"/>
+
+                                    </VerticalStackLayout>
+                                </Grid>
+
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

@@ -32,6 +32,8 @@ public partial class MainUserViewModel : ObservableObject
             new CompanyCard{Name = "Бургер Кинг", Address="г.Уфа"},
             new CompanyCard{Name = "Мастер и Маргарита", Address="г.Уфа"},
             new CompanyCard{Name = "Шахта Бургер", Address="г.Уфа"},
+            new CompanyCard{Name = "Перчини", Address="г.Уфа"},
+            new CompanyCard{Name = "Сирийская шаурма", Address="г.Уфа"},
        };
 
         Boxes = new ObservableCollection<BoxCard>
@@ -70,6 +72,36 @@ public partial class MainUserViewModel : ObservableObject
             new Dictionary<string, object>
             {
                 {"Company", company}
+            });
+    }
+
+    [RelayCommand]
+    async Task GoToAllBoxesPage(ObservableCollection<BoxCard> boxes)
+    {
+        if (boxes is null)
+        {
+            return;
+        }
+
+        await Shell.Current.GoToAsync($"{nameof(AllBoxesPage)}",
+            new Dictionary<string, object>
+            {
+                {"Boxes", boxes}
+            });
+    }
+
+    [RelayCommand]
+    async Task GoToAllCompanyPage(ObservableCollection<CompanyCard> companies)
+    {
+        if (companies is null)
+        {
+            return;
+        }
+
+        await Shell.Current.GoToAsync($"{nameof(AllCompanyPage)}",
+            new Dictionary<string, object>
+            {
+                {"Companies", companies}
             });
     }
 }

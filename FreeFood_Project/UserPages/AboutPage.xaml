@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreeFood_Project.UserPages.AboutPage"
-             Title="AboutPage"
-             BackgroundColor="AliceBlue">
+             Title="Информация"
+             BackgroundColor="AliceBlue"
+             Shell.BackgroundColor="LightGreen"
+             Shell.TitleColor="Black">
     <VerticalStackLayout>
         <Label 
             Text="FreeFood"

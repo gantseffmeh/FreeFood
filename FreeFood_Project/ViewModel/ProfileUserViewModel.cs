@@ -21,9 +21,10 @@ public partial class ProfileUserViewModel : ObservableObject
     }
 
     [RelayCommand]
-    async Task GoToSettingsUserPage()
+    async void GoToSettingsUserPage()
     {
-        await Shell.Current.GoToAsync($"{nameof(SettingsUserPage)}");
+        await Shell.Current.GoToAsync($"{nameof(SettingsUserPage)}?User_id={App.globalDataApp.User_id}");
+        return;
     }
 
 
@@ -31,5 +32,6 @@ public partial class ProfileUserViewModel : ObservableObject
     async Task GoToAboutPage()
     {
         await Shell.Current.GoToAsync($"{nameof(AboutPage)}");
+        
     }
 }
