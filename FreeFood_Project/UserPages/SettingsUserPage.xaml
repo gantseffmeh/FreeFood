@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.UserPages.SettingsUserPage"
+             Title="Профиль"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:SettingsUserViewModel"
+             BackgroundColor="White"
+             Shell.BackgroundColor="LightGreen"
+             Shell.TitleColor="Black">
+    <VerticalStackLayout Padding="20">
+        <Label Margin="20" Text="Информация о Вас" FontSize="30" TextColor="Black" HorizontalOptions="Center"/>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Имя:   " FontAttributes="Bold" TextColor="Black"/>
+            <Label FontSize="17" Grid.Column="1" Text="{Binding User.Name}" TextColor="Black"/>
+        </Grid>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Email:   " FontAttributes="Bold" TextColor="Black"/>
+            <Label FontSize="17" Grid.Column="1" Text="{Binding User.Email}" TextColor="Black"/>
+        </Grid>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Номер:   " FontAttributes="Bold" TextColor="Black"/>
+            <Label FontSize="17" Grid.Column="1" Text="{Binding User.Number}" TextColor="Black"/>
+        </Grid>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Расположение:   " FontAttributes="Bold" TextColor="Black"/>
+            <Label FontSize="17" Grid.Column="1" Text="{Binding User.Location}" TextColor="Black"/>
+        </Grid>
+        <Grid RowDefinitions="*,*,*,Auto">
+            <Button Grid.Row="3" BackgroundColor="OrangeRed" Padding="20" Text="Выйти" TextColor="Black" Command="{Binding LogOutCommand}"/>
+        </Grid>
+        
+    </VerticalStackLayout>
+</ContentPage>

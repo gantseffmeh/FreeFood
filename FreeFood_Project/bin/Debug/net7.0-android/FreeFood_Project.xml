@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FreeFood_Project</name>
+    </assembly>
+    <members>
+        <member name="T:FreeFood_Project.ViewModel.AllBoxesViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.AllBoxesViewModel.Boxes">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.AllBoxesViewModel.boxes"/>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.DetailBoxesViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.DetailBoxesViewModel.Box">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.DetailBoxesViewModel.box"/>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.DetailCompanyViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.DetailCompanyViewModel.Company">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.DetailCompanyViewModel.company"/>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.FavouritesViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.FavouritesViewModel.User_id">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.FavouritesViewModel.user_id"/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.FavouritesViewModel.Boxes">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.FavouritesViewModel.boxes"/>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.GlobalDataViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.GlobalDataViewModel.User_id">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.GlobalDataViewModel.user_id"/>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.MainUserViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.User_id">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.MainUserViewModel.user_id"/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.Companies">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.MainUserViewModel.companies"/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.Boxes">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.MainUserViewModel.boxes"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.MainUserViewModel.goToDetailBoxesCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailBoxesCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailBoxesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailBoxes(FreeFood_Project.Cards.BoxCard)"/>.</summary>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.MainUserViewModel.goToDetailCompanyCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompanyCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompanyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompany(FreeFood_Project.Cards.CompanyCard)"/>.</summary>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.MainViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.MainViewModel.goToSignInPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainViewModel.GoToSignInPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainViewModel.GoToSignInPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainViewModel.GoToSignInPage(System.String)"/>.</summary>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.ProfileUserViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.ProfileUserViewModel.User_id">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.ProfileUserViewModel.user_id"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.ProfileUserViewModel.goToSettingsUserPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToSettingsUserPage"/>.</summary>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.ProfileUserViewModel.goToAboutPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToAboutPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToAboutPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToAboutPage"/>.</summary>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.SettingsUserViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SettingsUserViewModel.User_id">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.SettingsUserViewModel.user_id"/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SettingsUserViewModel.User">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.SettingsUserViewModel.user"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.SettingsUserViewModel.logOutCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.SettingsUserViewModel.LogOutCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SettingsUserViewModel.LogOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.SettingsUserViewModel.LogOut"/>.</summary>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.SignInViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SignInViewModel.Login">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.SignInViewModel.login"/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SignInViewModel.Password">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.SignInViewModel.password"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.SignInViewModel.goToSignUpPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.SignInViewModel.GoToSignUpPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SignInViewModel.GoToSignUpPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.SignInViewModel.GoToSignUpPage(System.String)"/>.</summary>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.SignInViewModel.signInCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.SignInViewModel.SignInCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SignInViewModel.SignInCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.SignInViewModel.SignIn(System.String)"/>.</summary>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.SignUpViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.SignUpViewModel.goToSignInPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.SignUpViewModel.GoToSignInPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SignUpViewModel.GoToSignInPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.SignUpViewModel.GoToSignInPage(System.String)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Boxes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Boxes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Box">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Box" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Company">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Company" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User_id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User_id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Companies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Companies" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Login">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Login" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Boxes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Boxes" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Box">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Box" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Company">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Company" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User_id">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User_id" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Companies">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Companies" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Login">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Login" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.UserPages.MainUserPage"
+             Title="MainUserPage"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             xmlns:cards="clr-namespace:FreeFood_Project.Cards"
+             x:DataType="viewmodel:MainUserViewModel"
+             BackgroundColor="White"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Grid
+                RowDefinitions="70,*"
+                ColumnDefinitions="300,*"
+                Margin="10">
+                <Label Margin="10" FontAttributes="Bold" FontSize="30" Grid.Row="0" Text="FreeFood" Grid.ColumnSpan="2" TextColor="Green"/>
+                <Entry Grid.Row="1" BackgroundColor="LightGrey" TextColor="Black" PlaceholderColor="Black" />
+                <Button Grid.Column="1" Grid.Row="1" BackgroundColor="Gray" Text="Поиск" Margin="5"/>
+
+            </Grid>
+            
+            <Grid BackgroundColor="AliceBlue"
+              ColumnDefinitions="*,*"
+              RowDefinitions="*,160"
+              Padding="10"
+              Margin="10">
+
+                <Label Grid.Column="0" 
+                   Grid.Row="0"
+                Text="Компании"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+                   TextColor="Black"/>
+                <Label Grid.Column="1"
+                   Grid.Row="0"
+                   Text="Увидеть все"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center" 
+                   TextColor="Black">
+                    
+                </Label>
+
+                <CollectionView 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding Companies}"
+                        ItemsLayout="HorizontalList"
+                        SelectionMode="None"
+                        Margin="10"
+                        >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="cards:CompanyCard">
+                            <Grid Padding="10">
+                                <Frame  HeightRequest="123">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainUserViewModel}}, Path=GoToDetailCompanyCommand}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="0"
+                                  ColumnDefinitions="80,125">
+                                        <Image Source="company_icon.png"
+                                           Aspect="AspectFill"
+                                           HeightRequest="125"
+                                           WidthRequest="125"/>
+                                        <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10">
+                                            <Grid 
+                                                RowDefinitions="50,20">
+                                                <Label Grid.Row="0" Text="{Binding Name}" FontSize="15" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                                                <Label Grid.Row="1" Text="{Binding Address}" FontSize="15" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                                            </Grid>
+                                            
+                                        </VerticalStackLayout>
+                                    </Grid>
+
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+
+            <Grid BackgroundColor="AliceBlue"
+              ColumnDefinitions="*,*"
+              RowDefinitions="*,160"
+              Padding="10"
+              Margin="10">
+
+                <Label Grid.Column="0" 
+                   Grid.Row="0"
+                Text="Популярное"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+                   TextColor="Black"/>
+                <Label Grid.Column="1"
+                   Grid.Row="0"
+                   Text="Увидеть все"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"
+                   TextColor="Black"/>
+
+                <CollectionView 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding Boxes}"
+                        ItemsLayout="HorizontalList"
+                        SelectionMode="None"
+                        Margin="10"
+                        >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="cards:BoxCard">
+                            <Grid Padding="10">
+                                <Frame  HeightRequest="123">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainUserViewModel}}, Path=GoToDetailBoxesCommand}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="0"
+                                  ColumnDefinitions="80,200">
+                                        <Image Source="box_icon.png"
+                                           Aspect="AspectFill"
+                                           HeightRequest="125"
+                                           WidthRequest="125"/>
+                                        <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10">
+                                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Describe}" FontSize="13" TextColor="Black" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Price}" FontSize="10" TextColor="Black" HorizontalOptions="Center"/>
+
+                                        </VerticalStackLayout>
+                                    </Grid>
+
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+
+            <Grid BackgroundColor="AliceBlue"
+              ColumnDefinitions="*,*"
+              RowDefinitions="*,160"
+              Padding="10"
+              Margin="10">
+
+                <Label Grid.Column="0" 
+                   Grid.Row="0"
+                Text="Завтраки"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+                   TextColor="Black"/>
+                <Label Grid.Column="1"
+                   Grid.Row="0"
+                   Text="Увидеть все"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"
+                   TextColor="Black"/>
+
+                <CollectionView 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding Boxes}"
+                        ItemsLayout="HorizontalList"
+                        SelectionMode="None"
+                        Margin="10"
+                        >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="cards:BoxCard">
+                            <Grid Padding="10">
+                                <Frame  HeightRequest="123">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainUserViewModel}}, Path=GoToDetailBoxesCommand}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="0"
+                                  ColumnDefinitions="80,200">
+                                        <Image Source="box_icon.png"
+                                           Aspect="AspectFill"
+                                           HeightRequest="125"
+                                           WidthRequest="125"/>
+                                        <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10">
+                                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Describe}" FontSize="13" TextColor="Black" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Price}" FontSize="10" TextColor="Black" HorizontalOptions="Center"/>
+
+                                        </VerticalStackLayout>
+                                    </Grid>
+
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+            
+            <Grid BackgroundColor="AliceBlue"
+              ColumnDefinitions="*,*"
+              RowDefinitions="*,160"
+              Padding="10"
+              Margin="10">
+
+                <Label Grid.Column="0" 
+                   Grid.Row="0"
+                Text="Обеды"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+                   TextColor="Black"/>
+                <Label Grid.Column="1"
+                   Grid.Row="0"
+                   Text="Увидеть все"
+                   HorizontalOptions="End"
+                   VerticalOptions="Center"
+                   TextColor="Black"/>
+
+                <CollectionView 
+                        Grid.Row="1"
+                        Grid.ColumnSpan="2"
+                        BackgroundColor="Transparent"
+                        ItemsSource="{Binding Boxes}"
+                        ItemsLayout="HorizontalList"
+                        SelectionMode="None"
+                        Margin="10"
+                        >
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="cards:BoxCard">
+                            <Grid Padding="10">
+                                <Frame  HeightRequest="123">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer CommandParameter="{Binding .}"
+                                                              Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:MainUserViewModel}}, Path=GoToDetailBoxesCommand}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="0"
+                                  ColumnDefinitions="80,200">
+                                        <Image Source="box_icon.png"
+                                           Aspect="AspectFill"
+                                           HeightRequest="125"
+                                           WidthRequest="125"/>
+                                        <VerticalStackLayout Grid.Column="1"
+                                                         Padding="10">
+                                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Describe}" FontSize="13" TextColor="Black" HorizontalOptions="Center"/>
+                                            <Label Text="{Binding Price}" FontSize="10" TextColor="Black" HorizontalOptions="Center"/>
+
+                                        </VerticalStackLayout>
+                                    </Grid>
+
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+    
+    
+
+
+    <!--<StackLayout Padding="10">
+        <CollectionView ItemsSource="{Binding Companies}"
+                    ItemsLayout="HorizontalList">
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="cards:CompanyCard">
+                <HorizontalStackLayout Padding="10" Spacing="10">
+                    <Label Text="{Binding Name}" FontSize="20"/>
+                    <Label Text="{Binding Address}" FontSize="20"/>
+                </HorizontalStackLayout >
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+        <CollectionView ItemsSource="{Binding Companies}"
+                    ItemsLayout="HorizontalList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="cards:CompanyCard">
+                    <HorizontalStackLayout Padding="10" Spacing="10">
+                        <Label Text="{Binding Name}" FontSize="20"/>
+                        <Label Text="{Binding Address}" FontSize="20"/>
+                    </HorizontalStackLayout >
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>-->
+    
+    
+    
+</ContentPage>

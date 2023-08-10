@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.UserPages.AboutPage"
+             Title="AboutPage"
+             BackgroundColor="AliceBlue">
+    <VerticalStackLayout>
+        <Label 
+            Text="FreeFood"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="Green"
+            FontSize="40"
+            Margin="10"/>
+        <Label 
+            Text="Начинающий старт ап проект."
+            VerticalOptions="StartAndExpand" 
+            HorizontalOptions="StartAndExpand"
+            FontSize="20"
+            Margin="10"
+            TextColor="Black"/>
+        <Label 
+            Text="Наша задача - помочь жителям приобрести продукты дешевле, а также рационально распорядиться оставшимися продуктами ресторанам и заведениям."
+            VerticalOptions="StartAndExpand" 
+            HorizontalOptions="StartAndExpand"
+            FontSize="20"
+            Margin="10"
+            TextColor="Black"/>
+        
+    </VerticalStackLayout>
+</ContentPage>

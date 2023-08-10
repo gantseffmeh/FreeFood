@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.Pages.ChooseTypeUserPage"
+             BackgroundColor="AliceBlue"
+             Shell.NavBarIsVisible="False"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:MainViewModel">
+    
+    <VerticalStackLayout VerticalOptions="Center"
+                         Padding="20">
+        <Label Text="FreeFood"
+               FontSize="30"
+               TextColor="Green"
+               VerticalOptions="Center"
+               Padding="30"
+               FontAttributes="Bold"
+               />
+
+        <Label Text="Выберите свою роль"
+               FontSize="15"
+               TextColor="Gray"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               />
+
+        <Button Text="Пользователь" 
+                Margin="30"
+                FontAttributes="Bold" 
+                Background="{StaticResource Blue100Accent}"
+                CornerRadius="10"
+                TextColor="AntiqueWhite"
+                Command="{Binding GoToSignInPageCommand}"
+                CommandParameter="user"/>
+
+        <Button Text="Компания"
+                Margin="30"
+                FontAttributes="Bold" 
+                Background="{StaticResource Blue100Accent}"
+                CornerRadius="10"
+                TextColor="AntiqueWhite"
+                Command="{Binding GoToSignInPageCommand}"
+                CommandParameter="company"
+                />
+    </VerticalStackLayout>
+    
+</ContentPage>
