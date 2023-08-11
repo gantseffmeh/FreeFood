@@ -112,6 +112,15 @@
         <member name="P:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToAboutPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.ProfileUserViewModel.GoToAboutPage"/>.</summary>
         </member>
+        <member name="T:FreeFood_Project.ViewModel.SettingCompanyViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.SettingCompanyViewModel.logOutCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.SettingCompanyViewModel.LogOutCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.SettingCompanyViewModel.LogOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.SettingCompanyViewModel.LogOut"/>.</summary>
+        </member>
         <member name="T:FreeFood_Project.ViewModel.SettingsUserViewModel">
             <inheritdoc/>
             <inheritdoc/>

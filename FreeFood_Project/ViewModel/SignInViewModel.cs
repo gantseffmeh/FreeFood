@@ -57,5 +57,7 @@ public partial class SignInViewModel : ObservableObject
                 App.globalDataApp.User_id = $"{Login}";
                 break;
         }
+        Login = "";
+        Password = "";
     }
 }

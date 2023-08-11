@@ -1,4 +1,5 @@
-﻿using FreeFood_Project.Pages;
+﻿using FreeFood_Project.CompanyPages;
+using FreeFood_Project.Pages;
 using FreeFood_Project.UserPages;
 using FreeFood_Project.ViewModel;
 using Microsoft.Extensions.Logging;
@@ -45,6 +46,9 @@ public static class MauiProgram
 
         builder.Services.AddTransient<SettingsUserPage>();
         builder.Services.AddTransient<SettingsUserViewModel>();
+
+        builder.Services.AddTransient<SettingsCompanyPage>();
+        builder.Services.AddTransient<SettingCompanyViewModel>();
 
         builder.Services.AddSingleton<DetailBoxesPage>();
         builder.Services.AddSingleton<DetailBoxesViewModel>();
