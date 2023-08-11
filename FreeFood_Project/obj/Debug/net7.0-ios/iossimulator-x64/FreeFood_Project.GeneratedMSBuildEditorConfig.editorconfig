@@ -28,6 +28,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPa
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\MainCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\MainCompanyPage.xaml
 
+[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/PropertiesCompanyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.PropertiesCompanyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CompanyPages\PropertiesCompanyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CompanyPages\PropertiesCompanyPage.xaml
+
 [D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/SettingsCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.SettingsCompanyPage.xaml

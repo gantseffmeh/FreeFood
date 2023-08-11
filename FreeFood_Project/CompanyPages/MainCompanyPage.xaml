@@ -2,11 +2,66 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreeFood_Project.CompanyPages.MainCompanyPage"
-             Title="MainCompanyPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Здравствуйте, "
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="MainCompanyPage"
+             BackgroundColor="AliceBlue"
+             Shell.NavBarIsVisible="False">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Привет, KFC!" 
+                   HorizontalOptions="Start" 
+                   FontSize="40"
+                   FontAttributes="Bold"
+                   Padding="5"/>
+            <Frame BackgroundColor="LightGreen" Margin="10" >
+            <VerticalStackLayout>
+                <Image Source="like_icon.png" 
+                   HeightRequest="50" 
+                   WidthRequest="50" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"/>
+                <Label Text="Мы поможем Вам настроить магазин" 
+                       FontAttributes="Bold"
+                       FontSize="15"/>
+                <Label Text="В ближайшее время мы с Вами свяжемся.
+                         Либо если хотите начать работу уже сейчас, свяжитесь с нами сами."/>
+            </VerticalStackLayout>
+        </Frame>
+
+            <Frame Margin="10">
+                <VerticalStackLayout>
+                    <Label Text="Ваш бокс"
+                           FontSize="20"
+                           FontAttributes="Bold"/>
+                    <Image Source="box_icon.png"
+                       HeightRequest="150" 
+                   WidthRequest="150" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"
+                           Margin="10"/>
+                    
+                    <Label Text="Название"/>
+                    <Label Text="Веселый бокс"
+                           FontSize="20" Padding="10"/>
+
+                    <Label Text="Описание"/>
+                    <Label Text="Свежие продукты из Магнита"
+                           FontSize="20" Padding="10"/>
+
+                    <Label Text="Цена"/>
+                    <Label Text="250р."
+                           FontSize="20" Padding="10"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <Frame Margin="10">
+                <VerticalStackLayout>
+                    <Label Text="Нужна помощь?" FontAttributes="Bold"/>
+                    <Label Text="Свяжитесь с нами. Наши контакты:"/>
+                    <Label Text="+7999123453"/>
+                </VerticalStackLayout>
+                
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

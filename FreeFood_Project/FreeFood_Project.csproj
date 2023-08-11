@@ -53,10 +53,12 @@
 	  <None Remove="Resources\Images\company_icon.png" />
 	  <None Remove="Resources\Images\email.png" />
 	  <None Remove="Resources\Images\favourites_icon.png" />
+	  <None Remove="Resources\Images\like_icon.png" />
 	  <None Remove="Resources\Images\mobile.png" />
 	  <None Remove="Resources\Images\offer_icon.png" />
 	  <None Remove="Resources\Images\password.png" />
 	  <None Remove="Resources\Images\profile_icon.png" />
+	  <None Remove="Resources\Images\store_icon.png" />
 	  <None Remove="Resources\Images\user.png" />
 	</ItemGroup>
 
@@ -67,6 +69,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="CompanyPages\MainCompanyPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="CompanyPages\PropertiesCompanyPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="CompanyPages\SettingsCompanyPage.xaml">
