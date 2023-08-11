@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using FreeFood_Project.CompanyPages;
 using FreeFood_Project.Pages;
 using FreeFood_Project.UserPages;
 using System;
@@ -38,11 +39,23 @@ public partial class SignInViewModel : ObservableObject
     [RelayCommand]
     async void SignIn(string type)
     {
-        if(Password == "123")
+        //if(Password == "123")
+        //{
+        //    await Shell.Current.GoToAsync($"//{nameof(MainUserPage)}?user_id=123");
+        //    App.globalDataApp.User_id = $"{Login}";
+        //    return;
+        //}
+
+        switch (type)
         {
-            await Shell.Current.GoToAsync($"//{nameof(MainUserPage)}?user_id=123");
-            App.globalDataApp.User_id = $"{Login}";
-            return;
+            case "user":
+                await Shell.Current.GoToAsync($"//{nameof(MainUserPage)}");
+                App.globalDataApp.User_id = $"{Login}";
+                break;
+            case "company":
+                await Shell.Current.GoToAsync($"//{nameof(MainCompanyPage)}");
+                App.globalDataApp.User_id = $"{Login}";
+                break;
         }
     }
 }

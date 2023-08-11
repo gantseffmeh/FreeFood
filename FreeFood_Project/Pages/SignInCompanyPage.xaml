@@ -66,7 +66,12 @@
                                VerticalOptions="Center"
                                WidthRequest="25"
                                Grid.Column="0"/>
-                        <Entry VerticalOptions="Center" Placeholder="Email" Grid.Column="1"/>
+                        <Entry x:Name="email_entry" 
+                               TextColor="Black"
+                               VerticalOptions="Center"
+                               Placeholder="Email" 
+                               Grid.Column="1"
+                               Text="{Binding Login}"/>
                     </Grid>
                 </Frame>
 
@@ -77,7 +82,14 @@
                                VerticalOptions="Center"
                                WidthRequest="25"
                                Grid.Column="0"/>
-                        <Entry VerticalOptions="Center" Placeholder="Пароль" IsPassword="True" Grid.Column="1"/>
+
+                        <Entry x:Name="password_entry" 
+                               VerticalOptions="Center"
+                               TextColor="Black"
+                               Placeholder="Пароль" 
+                               IsPassword="True"
+                               Grid.Column="1"
+                               Text="{Binding Password}"/>
                     </Grid>
                 </Frame>
 
@@ -85,7 +97,9 @@
                         Text="Войти" FontSize="20" 
                         FontAttributes="Bold" 
                         Background="{StaticResource Blue100Accent}"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Command="{Binding SignInCommand}"
+                        CommandParameter="company"/>
 
                 <Label Text="Забыли пароль?" 
                        TextColor="Gray"
@@ -104,7 +118,8 @@
                     <HorizontalStackLayout.GestureRecognizers>
                         <TapGestureRecognizer NumberOfTapsRequired="1"
                                               Command="{Binding GoToSignUpPageCommand}"
-                                              CommandParameter="company"/>
+                                              CommandParameter="company"
+                                           />
                     </HorizontalStackLayout.GestureRecognizers>
                 </HorizontalStackLayout>
             </VerticalStackLayout>

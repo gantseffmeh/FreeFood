@@ -97,7 +97,8 @@
                         FontAttributes="Bold" 
                         Background="{StaticResource Blue100Accent}"
                         CornerRadius="10"
-                        Command="{Binding SignInCommand}"/>
+                        Command="{Binding SignInCommand}"
+                        CommandParameter="user"/>
 
                 <Label Text="Забыли пароль?" 
                        TextColor="Gray"

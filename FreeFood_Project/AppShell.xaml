@@ -6,6 +6,7 @@
     xmlns:local="clr-namespace:FreeFood_Project"
     xmlns:pages="clr-namespace:FreeFood_Project.Pages"
     xmlns:userpages="clr-namespace:FreeFood_Project.UserPages"
+    xmlns:companypage="clr-namespace:FreeFood_Project.CompanyPages"
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
@@ -28,5 +29,17 @@
                       Icon="profile_icon.png"
                       Route="ProfileUserPage"
                       />
+    </TabBar>
+
+    <TabBar>
+        <ShellContent Title="Общее" 
+                      ContentTemplate="{DataTemplate companypage:MainCompanyPage}"
+                      Icon="offer_icon.png"
+                      Route="MainCompanyPage"/>
+        <ShellContent Title="Настройки" 
+                      ContentTemplate="{DataTemplate companypage:SettingsCompanyPage}"
+                      Icon="favourites_icon.png"
+                      Route="SettingsCompanyPage"/>
+
     </TabBar>
 </Shell>
