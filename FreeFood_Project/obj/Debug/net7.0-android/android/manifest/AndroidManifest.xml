@@ -11,7 +11,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <permission android:name="com.companyname.freefood_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.freefood_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc64a5f91372a278b4df.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="FreeFood_Project" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+  <application android:name="crc64a5f91372a278b4df.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="FreeFood_Project" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true" android:usesCleartextTraffic="true">
     <activity android:name="crc64a5f91372a278b4df.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

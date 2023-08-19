@@ -65,20 +65,27 @@
                                VerticalOptions="Center"
                                WidthRequest="25"
                                Grid.Column="0"/>
-                        <Entry VerticalOptions="Center" Placeholder="Название компании" Grid.Column="1"/>
+                        <Entry VerticalOptions="Center"
+                               Placeholder="Название компании" 
+                               TextColor="Black"
+                               Grid.Column="1"
+                               Text="{Binding Name}"/>
                     </Grid>
                 </Frame>
 
-                <Frame Padding="10" BorderColor="Transparent" CornerRadius="0">
+                <!--<Frame Padding="10" BorderColor="Transparent" CornerRadius="0">
                     <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
                         <Image Source="user.png"
                                HeightRequest="25"
                                VerticalOptions="Center"
                                WidthRequest="25"
                                Grid.Column="0"/>
-                        <Entry VerticalOptions="Center" Placeholder="Имя" Grid.Column="1"/>
+                        <Entry VerticalOptions="Center"
+                               Placeholder="Имя" 
+                               Text="{Binding }"
+                               Grid.Column="1"/>
                     </Grid>
-                </Frame>
+                </Frame>-->
 
                 <Frame Padding="10" BorderColor="Transparent" CornerRadius="0">
                     <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
@@ -87,7 +94,11 @@
                                VerticalOptions="Center"
                                WidthRequest="25"
                                Grid.Column="0"/>
-                        <Entry VerticalOptions="Center" Placeholder="Email" Grid.Column="1"/>
+                        <Entry VerticalOptions="Center" 
+                               Placeholder="Email"
+                               TextColor="Black"
+                               Grid.Column="1"
+                               Text="{Binding Email}"/>
                     </Grid>
                 </Frame>
 
@@ -98,15 +109,42 @@
                                VerticalOptions="Center"
                                WidthRequest="25"
                                Grid.Column="0"/>
-                        <Entry VerticalOptions="Center" Placeholder="Пароль" IsPassword="True" Grid.Column="1"/>
+                        <Entry VerticalOptions="Center"
+                               Placeholder="Пароль"
+                               TextColor="Black"
+                               IsPassword="True"
+                               Grid.Column="1"
+                               Text="{Binding Password}"/>
                     </Grid>
+
                 </Frame>
 
+                <Frame Padding="10" BorderColor="Transparent" CornerRadius="0">
+                    <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
+                        <Image Source="password.png"
+                               HeightRequest="25"
+                               VerticalOptions="Center"
+                               WidthRequest="25"
+                               Grid.Column="0"/>
+                        <Entry VerticalOptions="Center"
+                               Placeholder="Повторите пароль"
+                               IsPassword="True"
+                               TextColor="Black"
+                               Grid.Column="1"
+                               Text="{Binding PasswordConfirm}"/>
+                    </Grid>
+
+                </Frame>
+                
                 <Button TextColor="AntiqueWhite" 
                         Text="Регистрация" FontSize="20" 
                         FontAttributes="Bold" 
                         Background="{StaticResource Blue100Accent}"
-                        CornerRadius="10"/>
+                        CornerRadius="10"
+                        Command="{Binding SignUpCommand}"
+                        CommandParameter="company"/>
+                
+
 
 
                 <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">

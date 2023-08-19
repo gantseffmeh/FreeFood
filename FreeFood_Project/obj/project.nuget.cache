@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wftgGo+fe+FLsveQGHUCq0FuwES6Xa2L1iJqOy0pywElznRo8dqhrTdJ01bPZ0fVwnhvI5pYKyHzJN2DHmoelQ==",
+  "dgSpecHash": "wHDv5DOCkxslJ74xd+7Usw2hjehVxnsEDyUIEdFfScmLBlscJFTgKkiB67DoG0xGcAQH6K9y4rKkJkEnpW9HHg==",
   "success": true,
   "projectFilePath": "D:\\Projects VS\\FreeFood\\FreeFood_Project\\FreeFood_Project\\FreeFood_Project.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Maksim\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.86\\microsoft.maui.graphics.win2d.winui.desktop.7.0.86.nupkg.sha512",
     "C:\\Users\\Maksim\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\Maksim\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
+    "C:\\Users\\Maksim\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Maksim\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Maksim\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\Maksim\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

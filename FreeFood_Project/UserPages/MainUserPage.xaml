@@ -16,9 +16,23 @@
                 RowDefinitions="70,*"
                 ColumnDefinitions="300,*"
                 Margin="10">
-                <Label Margin="10" FontAttributes="Bold" FontSize="30" Grid.Row="0" Text="FreeFood" Grid.ColumnSpan="2" TextColor="Green"/>
-                <Entry Grid.Row="1" BackgroundColor="LightGrey" TextColor="Black" PlaceholderColor="Black" />
-                <Button Grid.Column="1" Grid.Row="1" BackgroundColor="Gray" Text="Поиск" Margin="5"/>
+                <Label Margin="10"
+                       FontAttributes="Bold" 
+                       FontSize="30" 
+                       Grid.Row="0" 
+                       Text="FreeFood" 
+                       Grid.ColumnSpan="2" 
+                       TextColor="Green"/>
+                <Entry Grid.Row="1"
+                       BackgroundColor="Azure"
+                       TextColor="Black" 
+                       PlaceholderColor="Black" />
+                <Button Grid.Column="1" 
+                        Grid.Row="1" 
+                        BackgroundColor="LightBlue" 
+                        Text="Поиск"
+                        Margin="5"
+                        TextColor="Black"/>
 
             </Grid>
             

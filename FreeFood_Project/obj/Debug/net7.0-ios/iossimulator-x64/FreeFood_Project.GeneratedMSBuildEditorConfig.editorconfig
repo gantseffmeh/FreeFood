@@ -22,6 +22,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.AppShell.
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/AddBoxPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.AddBoxPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CompanyPages\AddBoxPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CompanyPages\AddBoxPage.xaml
+
+[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/DetailBoxCompanyPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.DetailBoxCompanyPage.xaml
+build_metadata.AdditionalFiles.TargetPath = CompanyPages\DetailBoxCompanyPage.xaml
+build_metadata.AdditionalFiles.RelativePath = CompanyPages\DetailBoxCompanyPage.xaml
+
 [D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/MainCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.MainCompanyPage.xaml

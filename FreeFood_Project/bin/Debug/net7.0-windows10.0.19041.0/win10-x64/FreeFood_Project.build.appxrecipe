@@ -685,6 +685,9 @@
     <AppxPackagedFile Include="C:\Users\Maksim\.nuget\packages\microsoft.windowsappsdk\1.2.221209.1\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Maksim\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Maksim\.nuget\packages\microsoft.graphics.win2d\1.0.4\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
@@ -892,6 +895,9 @@
     <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\favourites_icon.scale-100.png">
       <PackagePath>favourites_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\like_icon.scale-100.png">
+      <PackagePath>like_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\mobile.scale-100.png">
       <PackagePath>mobile.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -903,6 +909,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile_icon.scale-100.png">
       <PackagePath>profile_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\refresh_icon.scale-100.png">
+      <PackagePath>refresh_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\store_icon.scale-100.png">
+      <PackagePath>store_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-100.png">
       <PackagePath>user.scale-100.png</PackagePath>

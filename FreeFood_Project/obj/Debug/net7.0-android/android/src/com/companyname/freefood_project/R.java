@@ -10821,12 +10821,13 @@ public final class R {
     public static final int offer_icon=0x7f0700d6;
     public static final int password=0x7f0700d7;
     public static final int profile_icon=0x7f0700d8;
-    public static final int splash=0x7f0700d9;
-    public static final int store_icon=0x7f0700da;
-    public static final int test_level_drawable=0x7f0700db;
-    public static final int tooltip_frame_dark=0x7f0700dc;
-    public static final int tooltip_frame_light=0x7f0700dd;
-    public static final int user=0x7f0700de;
+    public static final int refresh_icon=0x7f0700d9;
+    public static final int splash=0x7f0700da;
+    public static final int store_icon=0x7f0700db;
+    public static final int test_level_drawable=0x7f0700dc;
+    public static final int tooltip_frame_dark=0x7f0700dd;
+    public static final int tooltip_frame_light=0x7f0700de;
+    public static final int user=0x7f0700df;
   }
   public static final class id {
     public static final int ALT=0x7f080000;

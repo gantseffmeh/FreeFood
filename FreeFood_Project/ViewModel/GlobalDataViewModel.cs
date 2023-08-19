@@ -14,6 +14,9 @@ public partial class GlobalDataViewModel : ObservableObject
     [ObservableProperty]
     public string user_id;
 
+    [ObservableProperty]
+    public HttpClient httpClient;
+
     public GlobalDataViewModel() 
     {
 

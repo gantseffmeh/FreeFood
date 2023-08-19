@@ -8,6 +8,7 @@ namespace FreeFood_Project.Cards;
 
 public class BoxCard
 {
+    public string Id { get; set; }
     public string Name { get; set; }
     public string Describe { get; set; }
     public string Price { get; set; }

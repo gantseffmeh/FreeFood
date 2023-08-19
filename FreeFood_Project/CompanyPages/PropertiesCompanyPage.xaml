@@ -4,7 +4,9 @@
              x:Class="FreeFood_Project.CompanyPages.PropertiesCompanyPage"
              Title="PropertiesCompanyPage"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="AliceBlue">
+             BackgroundColor="AliceBlue"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:PropertiesCompanyViewModel">
     
     <VerticalStackLayout>
         <Label Text="Свойства" TextColor="Black" HorizontalOptions="Center" FontSize="40" Margin="20"/>
@@ -13,7 +15,8 @@
                 TextColor="Black" 
                 Margin="20"
                 FontSize="15"
-                BackgroundColor="LightGreen"/>
+                BackgroundColor="LightGreen"
+                Command="{Binding GoToAddBoxPageCommand}"/>
         
         <Button Text="Настройки" 
                 TextColor="Black" 

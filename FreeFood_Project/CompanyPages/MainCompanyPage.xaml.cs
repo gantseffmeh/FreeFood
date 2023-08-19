@@ -1,9 +1,13 @@
+using FreeFood_Project.ViewModel;
+
 namespace FreeFood_Project.CompanyPages;
 
 public partial class MainCompanyPage : ContentPage
 {
-	public MainCompanyPage()
+	public MainCompanyPage(MainCompanyViewModel vm)
 	{
-		InitializeComponent();
+        BindingContext = vm;
+        InitializeComponent();
+		
 	}
 }

@@ -14,8 +14,10 @@ public partial class SettingCompanyViewModel : ObservableObject
     [RelayCommand]
     async Task LogOut()
     {
-
-        await Shell.Current.GoToAsync($"//{nameof(ChooseTypeUserPage)}");
+        
+        await App.globalDataApp.HttpClient.PostAsync($"http://87.239.106.199:61742/index.html/api/Company/Logout", null);
+        //await Shell.Current.GoToAsync($"//{nameof(ChooseTypeUserPage)}");
         Application.Current.MainPage = new AppShell();
+        
     }
 }

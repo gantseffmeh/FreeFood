@@ -29,7 +29,7 @@ public partial class SettingsUserViewModel : ObservableObject
     [RelayCommand]
     async Task LogOut()
     {
-        
+        await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/index.html/api/User/Logout", null);
         await Shell.Current.GoToAsync($"//{nameof(ChooseTypeUserPage)}");
         Application.Current.MainPage = new AppShell();
     }

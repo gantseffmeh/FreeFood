@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.CompanyPages.AddBoxPage"
+             Title="Создание бокса"
+             BackgroundColor="AliceBlue"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:AddBoxViewModel">
+    <VerticalStackLayout>
+        <Label 
+            Text="Новый бокс"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="40"/>
+        
+        <Label
+            Text="Название"
+            HorizontalOptions="Start"
+            Margin="15"
+            FontSize="20"/>
+        <Entry
+            BackgroundColor="#E1E1E1"
+            TextColor="Black"
+            Margin="10"
+            Text="{Binding Name}"/>
+
+        <Label
+            Text="Описание"
+            HorizontalOptions="Start"
+            Margin="15"
+            FontSize="20"/>
+        <Entry
+            BackgroundColor="#E1E1E1"
+            TextColor="Black"
+            Margin="10"
+            Text="{Binding Description}"/>
+
+        <Label
+            Text="Колличество"
+            HorizontalOptions="Start"
+            Margin="15"
+            FontSize="20"/>
+        <Entry
+            BackgroundColor="#E1E1E1"
+            TextColor="Black"
+            Margin="10"
+            Text="{Binding Count}"/>
+
+        <Label
+            Text="Цена (в рублях)"
+            HorizontalOptions="Start"
+            Margin="15"
+            FontSize="20"/>
+        <Entry
+            BackgroundColor="#E1E1E1"
+            TextColor="Black"
+            Margin="10"
+            Text="{Binding Cost}"/>
+
+        <Button Text="Добавить бокс" 
+                TextColor="Black" 
+                Margin="20"
+                FontSize="15"
+                BackgroundColor="LightGreen"
+                Command="{Binding AddBoxCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

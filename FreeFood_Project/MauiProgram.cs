@@ -61,6 +61,19 @@ public static class MauiProgram
 
         builder.Services.AddSingleton<AllCompanyPage>();
         builder.Services.AddSingleton<AllCompanyViewModel>();
+
+        builder.Services.AddSingleton<PropertiesCompanyPage>();
+        builder.Services.AddSingleton<PropertiesCompanyViewModel>();
+
+        builder.Services.AddSingleton<AddBoxPage>();
+        builder.Services.AddSingleton<AddBoxViewModel>();
+
+        builder.Services.AddTransient<MainCompanyPage>();
+        builder.Services.AddTransient<MainCompanyViewModel>();
+
+        builder.Services.AddSingleton<DetailBoxCompanyPage>();
+        builder.Services.AddSingleton<DetailBoxCompanyViewModel>();
+
         return builder.Build();
 	}
 }

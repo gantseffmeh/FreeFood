@@ -1,4 +1,5 @@
-﻿using FreeFood_Project.Pages;
+﻿using FreeFood_Project.CompanyPages;
+using FreeFood_Project.Pages;
 using FreeFood_Project.UserPages;
 using System.Reflection;
 
@@ -30,6 +31,11 @@ public partial class AppShell : Shell
         Routing.RegisterRoute($"{nameof(MainUserPage)}/{nameof(AllCompanyPage)}", typeof(AllCompanyPage));
 
         Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
+
+        Routing.RegisterRoute($"{nameof(PropertiesCompanyPage)}/{nameof(AddBoxPage)}", typeof(AddBoxPage));
+
+        Routing.RegisterRoute($"{nameof(MainCompanyPage)}/{nameof(DetailBoxCompanyPage)}", typeof(DetailBoxCompanyPage));
+
 
     }
 

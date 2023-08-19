@@ -58,6 +58,7 @@
 	  <None Remove="Resources\Images\offer_icon.png" />
 	  <None Remove="Resources\Images\password.png" />
 	  <None Remove="Resources\Images\profile_icon.png" />
+	  <None Remove="Resources\Images\refresh_icon.png" />
 	  <None Remove="Resources\Images\store_icon.png" />
 	  <None Remove="Resources\Images\user.png" />
 	</ItemGroup>
@@ -65,9 +66,16 @@
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="CompanyPages\AddBoxPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="CompanyPages\DetailBoxCompanyPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="CompanyPages\MainCompanyPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
