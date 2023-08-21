@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FreeFood_Project.CompanyPages.UpdateBoxPage"
+             Title="UpdateBoxPage"
+             xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
+             x:DataType="viewmodel:UpdateBoxCompanyViewModel"
+             BackgroundColor="AliceBlue">
+    <VerticalStackLayout>
+        <Image Source="box_icon.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="125" WidthRequest="125"/>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Название:   " FontAttributes="Bold" TextColor="Black"/>
+            <Entry FontSize="17" Grid.Column="1" Text="{Binding Box.Name}" TextColor="Black"/>
+        </Grid>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Описание:   " FontAttributes="Bold" TextColor="Black"/>
+            <Entry FontSize="17" Grid.Column="1" Text="{Binding Box.Description}" TextColor="Black"/>
+        </Grid>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Цена:   " FontAttributes="Bold" TextColor="Black"/>
+            <Entry FontSize="17" Grid.Column="1" Text="{Binding Box.Cost}" TextColor="Black"/>
+        </Grid>
+        <Grid
+            ColumnDefinitions="Auto,*"
+            Padding="20">
+            <Label FontSize="17" Grid.Column="0" Text="Колличество:   " FontAttributes="Bold" TextColor="Black"/>
+            <Entry FontSize="17" Grid.Column="1" Text="{Binding Box.Count}" TextColor="Black"/>
+        </Grid>
+        
+        <Button FontSize="20" 
+                Margin="10" 
+                TextColor="BlanchedAlmond" 
+                Text="Редактировать" 
+                BackgroundColor="Gray"
+                Command="{Binding UpdateBoxCommand}"
+                />
+    </VerticalStackLayout>
+</ContentPage>

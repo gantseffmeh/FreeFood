@@ -36,7 +36,7 @@ public partial class AppShell : Shell
 
         Routing.RegisterRoute($"{nameof(MainCompanyPage)}/{nameof(DetailBoxCompanyPage)}", typeof(DetailBoxCompanyPage));
 
-
+        Routing.RegisterRoute($"{nameof(MainCompanyPage)}/{nameof(DetailBoxCompanyPage)}/{nameof(UpdateBoxPage)}", typeof(UpdateBoxPage));
     }
 
 }

@@ -9,7 +9,7 @@
              x:DataType="viewmodel:SignInViewModel">
 
     <Grid RowDefinitions="1*,8*,1*">
-        <Frame Padding="0"
+        <!--<Frame Padding="0"
                HeightRequest="250"
                Grid.Row="0"
                WidthRequest="250"
@@ -43,7 +43,7 @@
                CornerRadius="125"
                BackgroundColor="LightBlue">
 
-        </Frame>
+        </Frame>-->
 
 
 
@@ -125,7 +125,7 @@
                 </HorizontalStackLayout>
             </VerticalStackLayout>
         </Frame>
-        <Frame Padding="0"
+        <!--<Frame Padding="0"
                HeightRequest="250"
                Grid.Row="2"
                WidthRequest="250"
@@ -135,6 +135,6 @@
                CornerRadius="125"
                BackgroundColor="{x:StaticResource Primary}">
 
-        </Frame>
+        </Frame>-->
     </Grid>
 </ContentPage>

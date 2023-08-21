@@ -2033,3 +2033,4 @@ D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-andro
 D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-android\android\assets\System.Runtime.Extensions.dll
 D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-android\android\assets\System.Runtime.Serialization.Formatters.dll
 D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-android\android\assets\System.Xml.dll
+D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-android\resizetizer\r\drawable\free_food_icon.png

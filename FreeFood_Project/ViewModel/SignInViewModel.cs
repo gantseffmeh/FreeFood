@@ -85,13 +85,13 @@ public partial class SignInViewModel : ObservableObject
                 var response_u = await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/User/Login", content);
                 //HttpClient httpClient = new HttpClient();
 
-                //string json_u = await response_u.Content.ReadAsStringAsync();
+                string json_u = await response_u.Content.ReadAsStringAsync();
 
-                //var values_u = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_u);
+                var values_u = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_u);
 
-                var status_ = (int)response_u.StatusCode;
+                //var status_ = (int)response_u.StatusCode;
 
-                if (status_ == 200)
+                if (values_u["succeeded"] == "true")
                 {
                     await Shell.Current.GoToAsync($"//{nameof(MainUserPage)}");
                     App.globalDataApp.User_id = $"{Login}";
@@ -102,23 +102,31 @@ public partial class SignInViewModel : ObservableObject
                 }
                 break;
                 case "company":
-                    var response_c= await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/Company/Login", content);
-                //HttpClient httpClient = new HttpClient();
-
-                //string json_c = await response_c.Content.ReadAsStringAsync();
-
-                //var values_c = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_c);
-
-                var status = (int)response_c.StatusCode;
-                if (status == 200)
+                try
                 {
-                    await Shell.Current.GoToAsync($"//{nameof(MainCompanyPage)}");
-                    App.globalDataApp.User_id = $"{Login}";
-                }
-                else
+                    var response_c = await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/Company/Login", content);
+                    //HttpClient httpClient = new HttpClient();
+
+                    string json_c = await response_c.Content.ReadAsStringAsync();
+
+                    var values_c = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_c);
+
+                   // var status = (int)response_c.StatusCode;
+
+                    if (values_c["succeeded"] == "true")
+                    {
+                        await Shell.Current.GoToAsync($"//{nameof(MainCompanyPage)}");
+                        App.globalDataApp.User_id = $"{Login}";
+                    }
+                    else
+                    {
+                        await Shell.Current.DisplayAlert("Ошибка авторизации", "Неправильный логин или пароль", "Ok");
+                    }
+                }catch(Exception ex) 
                 {
-                    await Shell.Current.DisplayAlert("Ошибка авторизации", "Неправильный логин или пароль", "Ok");
+                    await Shell.Current.DisplayAlert("Ошибка авторизации", $"{ex.Message}", "Ok");
                 }
+                    
                 break;
             }
             Login = "";

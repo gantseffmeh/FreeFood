@@ -30,10 +30,19 @@
             <Label FontSize="17" Grid.Column="0" Text="Колличество:   " FontAttributes="Bold" TextColor="Black"/>
             <Label FontSize="17" Grid.Column="1" Text="{Binding Box.Count}" TextColor="Black"/>
         </Grid>
+        
         <Button FontSize="20" 
                 Margin="10" 
                 TextColor="BlanchedAlmond" 
-                Text="Купить" 
-                BackgroundColor="ForestGreen"/>
+                Text="Редактировать" 
+                BackgroundColor="Gray"
+                Command="{Binding GoToUpdateBoxPageCommand}"/>
+     
+        <Button FontSize="20" 
+                Margin="10" 
+                TextColor="BlanchedAlmond" 
+                Text="Удалить" 
+                BackgroundColor="PaleVioletRed"
+                Command="{Binding DeleteBoxCommand}"/>
     </VerticalStackLayout>
 </ContentPage>

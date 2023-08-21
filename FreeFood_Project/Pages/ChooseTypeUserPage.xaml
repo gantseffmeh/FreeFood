@@ -8,14 +8,13 @@
              x:DataType="viewmodel:MainViewModel">
     
     <VerticalStackLayout VerticalOptions="Center"
-                         Padding="20">
-        <Label Text="FreeFood"
-               FontSize="30"
-               TextColor="Green"
-               VerticalOptions="Center"
-               Padding="30"
-               FontAttributes="Bold"
-               />
+                         Padding="10">
+        <Image Source="free_food_icon.png"
+               Aspect="Fill"
+               HeightRequest="425"
+               WidthRequest="575"
+               VerticalOptions="End"/>
+        
 
         <Label Text="Выберите свою роль"
                FontSize="15"

@@ -27,7 +27,8 @@
                 FontSize="15"/>
 
         <Grid RowDefinitions="*,*,*,Auto">
-            <Button Grid.Row="3" BackgroundColor="OrangeRed" Padding="20" Text="Выйти" TextColor="Black" Command="{Binding LogOutCommand}"/>
+            <Button Grid.Row="3" BackgroundColor="OrangeRed" Padding="20" Text="Выйти" TextColor="Black" Command="{Binding LogOutCommand}"
+                    Margin="10"/>
         </Grid>
 
     </VerticalStackLayout>

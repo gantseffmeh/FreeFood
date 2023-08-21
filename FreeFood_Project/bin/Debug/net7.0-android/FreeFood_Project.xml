@@ -40,9 +40,23 @@
         </member>
         <member name="T:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel">
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.Box">
             <inheritdoc cref="F:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.box"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.deleteBoxCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.DeleteBoxCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.DeleteBoxCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.DeleteBox"/>.</summary>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.goToUpdateBoxPageCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.GoToUpdateBoxPageCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.GoToUpdateBoxPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.DetailBoxCompanyViewModel.GoToUpdateBoxPage"/>.</summary>
         </member>
         <member name="T:FreeFood_Project.ViewModel.DetailBoxesViewModel">
             <inheritdoc/>
@@ -259,6 +273,19 @@
         </member>
         <member name="P:FreeFood_Project.ViewModel.SignUpViewModel.GoToSignInPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.SignUpViewModel.GoToSignInPage(System.String)"/>.</summary>
+        </member>
+        <member name="T:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel.Box">
+            <inheritdoc cref="F:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel.box"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel.updateBoxCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel.UpdateBoxCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel.UpdateBoxCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.UpdateBoxCompanyViewModel.UpdateBox"/>.</summary>
         </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
