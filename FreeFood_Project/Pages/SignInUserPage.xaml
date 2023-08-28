@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FreeFood_Project.Pages.SignInUserPage"
              Title="SignUpPage"
-             BackgroundColor="White"
+             BackgroundColor="#f5f5f8"
              Shell.NavBarIsVisible="False"
              xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
              x:DataType="viewmodel:SignInViewModel">
@@ -45,18 +45,16 @@
 
         </Frame>-->
 
-
-
         <Frame BackgroundColor="{x:StaticResource DashboardBackground}" 
             Grid.Row="1"
                VerticalOptions="CenterAndExpand"
-               Margin="0,0,40,0">
+               Margin="0,0,0,0">
 
-            <VerticalStackLayout Spacing="25">
+            <VerticalStackLayout Spacing="35">
                 <Label Text="Войти"
                        FontSize="28"
                        FontAttributes="Bold"
-                       TextColor="DarkBlue"/>
+                       TextColor="Black"/>
 
                 <Frame Padding="10" BorderColor="Transparent" CornerRadius="0">
                     <Grid ColumnDefinitions="25,*" ColumnSpacing="20">
@@ -97,7 +95,7 @@
                 <Button TextColor="AntiqueWhite" 
                         Text="Войти" FontSize="20" 
                         FontAttributes="Bold" 
-                        Background="{StaticResource Blue100Accent}"
+                        Background="#88d338"
                         CornerRadius="10"
                         Command="{Binding SignInCommand}"
                         CommandParameter="user"/>

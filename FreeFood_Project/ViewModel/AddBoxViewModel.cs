@@ -4,6 +4,7 @@ using FreeFood_Project.Cards;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net.Http.Json;
 using System.Text;
@@ -20,10 +21,10 @@ public partial class AddBoxViewModel : ObservableObject
     string description;
 
     [ObservableProperty]
-    int count;
+    uint count;
 
     [ObservableProperty]
-    int cost;
+    double cost;
 
     class Box_
     {
@@ -34,12 +35,57 @@ public partial class AddBoxViewModel : ObservableObject
         public List<string>? ImagesId { get; set; }
     }
 
+    public class BagCreateViewModel
+    {
+        public bool? IsDisabled { get; set; } = true;
+
+        public string Name { get; set; } = null!;
+
+        public string? Description { get; set; }
+
+        /// <summary>
+        /// Первое изображение в списке - превью
+        /// </summary>
+        public List<string>? ImagesId { get; set; }
+
+        public uint Count { get; set; } = 0;
+
+        public double Cost { get; set; } = 0;
+
+        public List<string>? Tags { get; set; }
+
+        public DateTime? Created { get; set; }
+
+        //public static implicit operator Bag(BagCreateViewModel model)
+        //{
+        //    return new Bag()
+        //    {
+        //        Name = model.Name,
+        //        Description = model.Description,
+        //        ImagesId = model.ImagesId,
+        //        Count = model.Count,
+        //        Cost = model.Cost,
+        //        Tags = model.Tags ?? new()
+        //    };
+        //}
+    }
+
     [RelayCommand]
     async Task AddBox()
     {
-        Box_ box = new Box_ { Name = Name, Description = Description, Cost = Cost, Count = Count, ImagesId = new()  };
+        DateTime date_now = DateTime.Now;
+        List<string> tags = new List<string> { "Завтрак" };
+        BagCreateViewModel createBox = new BagCreateViewModel { Name = "string", 
+            Description = "string", 
+            Cost = 0, 
+            Count = 0, 
+            ImagesId = new(), 
+            Tags = new(), 
+            Created = null, 
+            IsDisabled = true };
+        //Box_ box = new Box_ { Name = Name, Description = Description, Cost = Cost, Count = Count, ImagesId = new()  };
 
-        JsonContent content = JsonContent.Create(box);
+        JsonContent content = JsonContent.Create(createBox);
 
         try
         {

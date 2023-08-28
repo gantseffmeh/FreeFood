@@ -8,6 +8,11 @@
             <inheritdoc/>
             <inheritdoc/>
         </member>
+        <member name="P:FreeFood_Project.ViewModel.AddBoxViewModel.BagCreateViewModel.ImagesId">
+            <summary>
+            Первое изображение в списке - превью
+            </summary>
+        </member>
         <member name="P:FreeFood_Project.ViewModel.AddBoxViewModel.Name">
             <inheritdoc cref="F:FreeFood_Project.ViewModel.AddBoxViewModel.name"/>
         </member>

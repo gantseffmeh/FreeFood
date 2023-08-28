@@ -4,7 +4,7 @@
              x:Class="FreeFood_Project.CompanyPages.SettingsCompanyPage"
              Title="SettingsCompanyPage"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="AliceBlue"
+             BackgroundColor="{StaticResource BackGroundFreeFood}"
              xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
              x:DataType="viewmodel:SettingCompanyViewModel">
     
@@ -14,20 +14,23 @@
         <Button Text="Настройки" 
                 TextColor="Black" 
                 Margin="20"
-                FontSize="15"/>
+                FontSize="20"/>
 
         <Button Text="Соглашения" 
                 TextColor="Black" 
                 Margin="20" 
-                FontSize="15"/>
+                FontSize="20"/>
 
         <Button Text="Помощь" 
                 TextColor="Black" 
                 Margin="20"
-                FontSize="15"/>
+                FontSize="20"/>
 
         <Grid RowDefinitions="*,*,*,Auto">
-            <Button Grid.Row="3" BackgroundColor="OrangeRed" Padding="20" Text="Выйти" TextColor="Black" Command="{Binding LogOutCommand}"
+            <Button Grid.Row="3" BackgroundColor="{StaticResource Primary}" Padding="15" 
+                    Text="Выйти" TextColor="Black" 
+                    Command="{Binding LogOutCommand}"
+                    FontSize="20"
                     Margin="10"/>
         </Grid>
 

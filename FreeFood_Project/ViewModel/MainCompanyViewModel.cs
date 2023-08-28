@@ -64,7 +64,6 @@ public partial class MainCompanyViewModel : ObservableObject
     {
         public Guid Id { get; set; }
 
-        [Required]
         public string Name { get; set; } = null!;
 
         public string? Description { get; set; }
@@ -74,15 +73,19 @@ public partial class MainCompanyViewModel : ObservableObject
         /// </summary>
         public List<string>? ImagesId { get; set; }
 
-        [Required]
         public uint Count { get; set; } = 0;
 
-        [Required]
         public double Cost { get; set; } = 0;
 
-        public bool IsFavorite { get; set; }
-
         public UInt64 NumberOfViews { get; set; }
+
+        public List<string> Tags { get; set; } = null!;
+
+        public DateTime Created { get; set; }
+
+        public bool IsDisabled { get; set; }
+
+        public float? AvgEvaluation { get; set; }
     }
 
     [RelayCommand]
