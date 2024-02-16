@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿	<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
@@ -41,8 +41,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
-
+		
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.svg" BaseSize="168,208" />
@@ -52,9 +51,15 @@
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+		
+		
 	</ItemGroup>
-
 	<ItemGroup>
+		<MauiSplashScreen Include="Resources\Images\free_food_icon.png" BaseSize="600,600" Color="#ffffff" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Platforms\Android\Resources\drawable\maui_splash.xml" />
+	  <None Remove="Resources\free_food_icon.png" />
 	  <None Remove="Resources\Images\box_icon.png" />
 	  <None Remove="Resources\Images\company_icon.png" />
 	  <None Remove="Resources\Images\email.png" />
@@ -68,6 +73,9 @@
 	  <None Remove="Resources\Images\refresh_icon.png" />
 	  <None Remove="Resources\Images\store_icon.png" />
 	  <None Remove="Resources\Images\user.png" />
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiImage Include="Resources\free_food_icon.png" />
 	</ItemGroup>
 
 	<ItemGroup>

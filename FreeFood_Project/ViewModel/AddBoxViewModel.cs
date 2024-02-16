@@ -73,15 +73,16 @@ public partial class AddBoxViewModel : ObservableObject
     [RelayCommand]
     async Task AddBox()
     {
-        DateTime date_now = DateTime.Now;
+        DateTime date_now = DateTime.UtcNow;
         List<string> tags = new List<string> { "Завтрак" };
-        BagCreateViewModel createBox = new BagCreateViewModel { Name = "string", 
+        BagCreateViewModel createBox = new BagCreateViewModel { 
+            Name = "string", 
             Description = "string", 
             Cost = 0, 
             Count = 0, 
             ImagesId = new(), 
             Tags = new(), 
-            Created = null, 
+            Created = date_now, 
             IsDisabled = true };
         //Box_ box = new Box_ { Name = Name, Description = Description, Cost = Cost, Count = Count, ImagesId = new()  };
 

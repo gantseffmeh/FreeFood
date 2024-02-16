@@ -6,22 +6,66 @@
              xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
              x:DataType="viewmodel:ProfileUserViewModel"
              Shell.NavBarIsVisible="False"
-             BackgroundColor="White">
+             BackgroundColor="#f5f5f8">
 
     <VerticalStackLayout>
-        <Label Text="Профиль" TextColor="Black" HorizontalOptions="Center" FontSize="40" Margin="20"/>
+        <Label Text="Мой профиль" TextColor="#5fd332" HorizontalOptions="Center" FontSize="40" Margin="20"/>
+
+        <Frame
+            Margin="20">
+            <Grid
+               ColumnDefinitions="50,*"
+               RowDefinitions="*,*,*,*">
+                <Image
+                    Grid.Column="0"
+                    Source="user.png"
+                    Grid.RowSpan="4"/>
+
+                <Label
+                    HorizontalOptions="Center"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    Text="Max Max"/>
+                <Label
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Text="maks11@gmail.com"
+                    FontSize="15"/>
+                <Label
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Text="+799911101001"
+                    FontSize="15"/>
+                <Label
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    HorizontalOptions="Center"
+                    Text="Ufa, Russia"
+                    FontSize="15"/>
+            </Grid>
+        </Frame>
+
+
+        <Button 
+             Text="Заказы" 
+             TextColor="Black" 
+             Margin="20"
+             FontSize="15" 
+            />
+       
+        
+        
         <Button Text="Настройки" 
                 TextColor="Black" 
                 Margin="20"
                 FontSize="15" 
                 Command="{Binding GoToSettingsUserPageCommand}"/>
         
-        <Button Text="Зарегестрировать магазин" 
-                TextColor="Black" 
-                Margin="20" 
-                FontSize="15"/>
-        
-        <Button Text="О нас" 
+        <Button Text="Поддержка" 
                 TextColor="Black" 
                 Margin="20"
                 FontSize="15"

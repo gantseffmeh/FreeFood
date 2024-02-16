@@ -8,153 +8,147 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FreeFood_Project
-build_property.ProjectDir = D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\
+build_property.ProjectDir = C:\Users\maks6\source\repos\FreeFood_Project\FreeFood_Project\
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/App.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/AppShell.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/AddBoxPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/CompanyPages/AddBoxPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.AddBoxPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\AddBoxPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\AddBoxPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/DetailBoxCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/CompanyPages/DetailBoxCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.DetailBoxCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\DetailBoxCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\DetailBoxCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/MainCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/CompanyPages/MainCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.MainCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\MainCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\MainCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/PropertiesCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/CompanyPages/PropertiesCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.PropertiesCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\PropertiesCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\PropertiesCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/SettingsCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/CompanyPages/SettingsCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.SettingsCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\SettingsCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\SettingsCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/CompanyPages/UpdateBoxPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/CompanyPages/UpdateBoxPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.CompanyPages.UpdateBoxPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CompanyPages\UpdateBoxPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CompanyPages\UpdateBoxPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Pages/ChooseTypeUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Pages/ChooseTypeUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Pages.ChooseTypeUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ChooseTypeUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\ChooseTypeUserPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Pages/SignInCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Pages/SignInCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Pages.SignInCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SignInCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SignInCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Pages/SignInUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Pages/SignInUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Pages.SignInUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SignInUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SignInUserPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Pages/SignUpCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Pages/SignUpCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Pages.SignUpCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SignUpCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SignUpCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Pages/SignUpUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Pages/SignUpUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Pages.SignUpUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\SignUpUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\SignUpUserPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Resources/Styles/Colors.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/Resources/Styles/Styles.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/AboutPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/AboutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.AboutPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\AboutPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/AllBoxesPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/AllBoxesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.AllBoxesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\AllBoxesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\AllBoxesPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/AllCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/AllCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.AllCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\AllCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\AllCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/DetailBoxesPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/DetailBoxesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.DetailBoxesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\DetailBoxesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\DetailBoxesPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/DetailCompanyPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/DetailCompanyPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.DetailCompanyPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\DetailCompanyPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\DetailCompanyPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/FavouritesUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/FavouritesUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.FavouritesUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\FavouritesUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\FavouritesUserPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/MainUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/MainUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.MainUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\MainUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\MainUserPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/ProfileUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/ProfileUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.ProfileUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\ProfileUserPage.xaml
 build_metadata.AdditionalFiles.RelativePath = UserPages\ProfileUserPage.xaml
 
-[D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/UserPages/SettingsUserPage.xaml]
+[C:/Users/maks6/source/repos/FreeFood_Project/FreeFood_Project/UserPages/SettingsUserPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FreeFood_Project.UserPages.SettingsUserPage.xaml
 build_metadata.AdditionalFiles.TargetPath = UserPages\SettingsUserPage.xaml

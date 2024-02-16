@@ -1,11 +1,13 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using FreeFood_Project.CompanyPages;
+using FreeFood_Project.Model;
 using FreeFood_Project.Pages;
 using FreeFood_Project.UserPages;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net.Http;
@@ -82,18 +84,36 @@ public partial class SignInViewModel : ObservableObject
         switch (type)
             {
                 case "user":
-                var response_u = await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/User/Login", content);
-                //HttpClient httpClient = new HttpClient();
+                //var response_u = await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/User/Login", content);
+                
 
-                string json_u = await response_u.Content.ReadAsStringAsync();
+                //string json_u = await response_u.Content.ReadAsStringAsync();
 
-                var values_u = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_u);
+                //var values_u = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_u);
 
-                //var status_ = (int)response_u.StatusCode;
+                
 
-                if (values_u["succeeded"] == "true")
+                //if (values_u["succeeded"] == "true")
+                
+                if(true)
                 {
-                    await Shell.Current.GoToAsync($"//{nameof(MainUserPage)}");
+
+                    //var response = await App.globalDataApp.HttpClient.GetAsync($"{App.main_url}/api/User/Company");
+                    //HttpClient httpClient = new HttpClient();
+
+                    //string json = await response.Content.ReadAsStringAsync();
+
+                    //var companies = JsonConvert.DeserializeObject<ObservableCollection<Company>>(json);
+
+                    ObservableCollection<Company> companies1 = new ObservableCollection<Company>{new Company { AvgEvaluation = 12, CompanyName = "asd", Id = "123", ImagePreview = "12"},
+                                                                                                 new Company { AvgEvaluation = 12, CompanyName = "asd", Id = "123", ImagePreview = "12"},
+                                                                                                 new Company { AvgEvaluation = 12, CompanyName = "asd", Id = "123", ImagePreview = "12"},
+                                                                                                 new Company { AvgEvaluation = 12, CompanyName = "asd", Id = "123", ImagePreview = "12"}};
+                    await Shell.Current.GoToAsync($"//{nameof(MainUserPage)}",
+                        new Dictionary<string, object>
+                        {
+                            {"Companies", companies1}
+                        });
                     App.globalDataApp.User_id = $"{Login}";
                 }
                 else
@@ -104,16 +124,17 @@ public partial class SignInViewModel : ObservableObject
                 case "company":
                 try
                 {
-                    var response_c = await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/Company/Login", content);
+                    //var response_c = await App.globalDataApp.HttpClient.PostAsync($"{App.main_url}/api/Company/Login", content);
                     //HttpClient httpClient = new HttpClient();
 
-                    string json_c = await response_c.Content.ReadAsStringAsync();
+                    //string json_c = await response_c.Content.ReadAsStringAsync();
 
-                    var values_c = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_c);
+                    //var values_c = JsonConvert.DeserializeObject<Dictionary<string, string>>(json_c);
 
                    // var status = (int)response_c.StatusCode;
 
-                    if (values_c["succeeded"] == "true")
+                    //if (values_c["succeeded"] == "true")
+                    if(true)
                     {
                         await Shell.Current.GoToAsync($"//{nameof(MainCompanyPage)}");
                         App.globalDataApp.User_id = $"{Login}";

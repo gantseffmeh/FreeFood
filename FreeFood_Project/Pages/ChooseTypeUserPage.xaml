@@ -16,31 +16,28 @@
                VerticalOptions="End"/>
         
 
-        <Label Text="Выберите свою роль"
-               FontSize="15"
-               TextColor="#000000"
-               VerticalOptions="Center"
-               HorizontalOptions="Center"
-               FontAttributes="Bold"
-               />
-
-        <Button Text="Пользователь" 
-                Margin="30"
+        <Button Text="Я покупатель" 
+                Margin="30, 5"
                 FontAttributes="Bold" 
                 Background="#88D338"
-                CornerRadius="10"
+                CornerRadius="40"
                 TextColor="AntiqueWhite"
+                FontSize="20"
+                HeightRequest="80"
                 Command="{Binding GoToSignInPageCommand}"
                 CommandParameter="user"/>
 
-        <Button Text="Компания"
-                Margin="30"
+        <Button Text="Я продавец"
+                Margin="30, 5"
                 FontAttributes="Bold" 
                 Background="#88D338"
-                CornerRadius="10"
+                CornerRadius="40"
                 TextColor="AntiqueWhite"
+                FontSize="20"
+                HeightRequest="80"
                 Command="{Binding GoToSignInPageCommand}"
                 CommandParameter="company"
+                
                 />
     </VerticalStackLayout>
     

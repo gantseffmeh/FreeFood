@@ -26,14 +26,14 @@
             ColumnDefinitions="Auto,*"
             Padding="20">
             <Label FontSize="17" Grid.Column="0" Text="Номер:   " FontAttributes="Bold" TextColor="Black"/>
-            <Label FontSize="17" Grid.Column="1" Text="{Binding User.Number}" TextColor="Black"/>
+            <Label FontSize="17" Grid.Column="1" Text="{Binding User.PhoneNumber}" TextColor="Black"/>
         </Grid>
-        <Grid
+        <!--<Grid
             ColumnDefinitions="Auto,*"
             Padding="20">
             <Label FontSize="17" Grid.Column="0" Text="Расположение:   " FontAttributes="Bold" TextColor="Black"/>
             <Label FontSize="17" Grid.Column="1" Text="{Binding User.Location}" TextColor="Black"/>
-        </Grid>
+        </Grid>-->
         <Grid RowDefinitions="*,*,*,Auto">
             <Button Grid.Row="3" BackgroundColor="OrangeRed" Padding="20" Text="Выйти" TextColor="Black" Command="{Binding LogOutCommand}"/>
         </Grid>

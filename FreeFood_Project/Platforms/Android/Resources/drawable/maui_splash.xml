@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:opacity="opaque">
+	<item android:drawable="@color/maui_splash_color" />
+	<item
+		android:width="165dp"
+		android:height="145dp"
+		android:gravity="center">
+
+		<bitmap
+			android:gravity="fill"
+			android:src="@drawable/free_food_icon"
+			android:mipMap="true"/>
+	</item>
+</layer-list>

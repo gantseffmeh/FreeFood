@@ -5,8 +5,9 @@
              Title="MainUserPage"
              xmlns:viewmodel="clr-namespace:FreeFood_Project.ViewModel"
              xmlns:cards="clr-namespace:FreeFood_Project.Cards"
+             xmlns:model="clr-namespace:FreeFood_Project.Model"
              x:DataType="viewmodel:MainUserViewModel"
-             BackgroundColor="White"
+             BackgroundColor="#f5f5f8"
              Shell.NavBarIsVisible="False">
 
     <ScrollView>
@@ -20,60 +21,65 @@
                        FontAttributes="Bold" 
                        FontSize="30" 
                        Grid.Row="0" 
-                       Text="FreeFood" 
+                       Text="Главная" 
                        Grid.ColumnSpan="2" 
-                       TextColor="Green"/>
+                       TextColor="#6ed334"/>
                 <Entry Grid.Row="1"
-                       BackgroundColor="Azure"
-                       TextColor="Black" 
-                       PlaceholderColor="Black" />
+                        BackgroundColor="#ffffff"
+                        TextColor="Black" 
+                        PlaceholderColor="Black" />
                 <Button Grid.Column="1" 
                         Grid.Row="1" 
-                        BackgroundColor="LightBlue" 
+                        
+                        BackgroundColor="#6ed334" 
                         Text="Поиск"
                         Margin="5"
                         TextColor="Black"/>
 
             </Grid>
             
-            <Grid BackgroundColor="AliceBlue"
-              ColumnDefinitions="*,*"
-              RowDefinitions="*,160"
+            <Grid
+                RowDefinitions="*"
+                ColumnDefinitions="*,*,*"
+                Margin="10">
+
+                <Button Grid.Column="0" 
+                        Grid.Row="1" 
+                        Text="Цена"
+                        Margin="5"
+                        TextColor="Black"/>
+                
+                <Button Grid.Column="1" 
+                    Grid.Row="1" 
+                    Text="Рейтинг"
+                    Margin="5"
+                    TextColor="Black"/>
+                
+                <Button Grid.Column="2" 
+                    Grid.Row="1" 
+                    Text="Расстояние"
+                    Margin="5"
+                    TextColor="Black"/>
+
+            </Grid>
+
+            <Grid BackgroundColor="#f5f5f8"
+              ColumnDefinitions="*"
+              RowDefinitions="*"
               Padding="10"
-              Margin="10">
-
-                <Label Grid.Column="0" 
-                   Grid.Row="0"
-                Text="Компании"
-               FontSize="15"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-                   TextColor="Black"/>
-                <Label Grid.Column="1"
-                   Grid.Row="0"
-                   Text="Увидеть все"
-                   FontSize="15"
-                   FontAttributes="Bold"
-                   HorizontalOptions="End"
-                   VerticalOptions="Center" 
-                   TextColor="Black">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Command="{Binding GoToAllCompanyPageCommand}"
-                                              CommandParameter="{Binding Companies}"/>
-                    </Label.GestureRecognizers>
-                </Label>
-
+              Margin="10"
+              >
                 <CollectionView 
                         Grid.Row="1"
                         Grid.ColumnSpan="2"
                         BackgroundColor="Transparent"
                         ItemsSource="{Binding Companies}"
-                        ItemsLayout="HorizontalList"
+                        
                         SelectionMode="None"
                         Margin="10"
                         >
                     <CollectionView.ItemTemplate>
-                        <DataTemplate x:DataType="cards:CompanyCard">
+                        <DataTemplate x:DataType="model:Company">
                             <Grid Padding="10">
                                 <Frame  HeightRequest="123">
                                     <Frame.GestureRecognizers>
@@ -90,8 +96,8 @@
                                                          Padding="10">
                                             <Grid 
                                                 RowDefinitions="50,20">
-                                                <Label Grid.Row="0" Text="{Binding Name}" FontSize="15" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
-                                                <Label Grid.Row="1" Text="{Binding Address}" FontSize="15" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>
+                                                <Label Grid.Row="0" Text="{Binding CompanyName}" FontSize="15" TextColor="Black" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                                                <!--<Label Grid.Row="1" Text="{Binding Address}" FontSize="15" TextColor="Black" HorizontalOptions="End" VerticalOptions="Center"/>-->
                                             </Grid>
                                             
                                         </VerticalStackLayout>
@@ -104,7 +110,7 @@
                 </CollectionView>
             </Grid>
 
-            <Grid BackgroundColor="AliceBlue"
+            <!--<Grid BackgroundColor="AliceBlue"
               ColumnDefinitions="*,*"
               RowDefinitions="*,160"
               Padding="10"
@@ -300,7 +306,7 @@
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>
-            </Grid>
+            </Grid>-->
 
 
         </VerticalStackLayout>

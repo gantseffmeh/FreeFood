@@ -10,20 +10,22 @@ using System.Threading.Tasks;
 
 namespace FreeFood_Project.ViewModel;
 
+[QueryProperty("User", "User")]
 public partial class SettingsUserViewModel : ObservableObject
 {
 
     [ObservableProperty]
     string user_id;
 
+
     [ObservableProperty]
-    User user;
+    User_view user;
 
     public SettingsUserViewModel()
     {
         user_id = App.globalDataApp.User_id;
 
-        User = new User { Name = "Max", Email = $"{User_id}", Number = "7988848412", Location = "г.Уфа" };
+        //User = new User { Name = "Max", Email = $"{User_id}", Number = "7988848412", Location = "г.Уфа" };
     }
 
     [RelayCommand]

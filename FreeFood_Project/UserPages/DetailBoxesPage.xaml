@@ -24,5 +24,6 @@
             <Label FontSize="17" Grid.Column="1" Text="{Binding Box.Price}" TextColor="Black"/>
         </Grid>
         <Button FontSize="20" Margin="10" TextColor="BlanchedAlmond" Text="Купить" BackgroundColor="ForestGreen"/>
+        <Button FontSize="20" Margin="10" TextColor="BlanchedAlmond" Text="Добавить в избранное" BackgroundColor="Black"/>
     </VerticalStackLayout>
 </ContentPage>

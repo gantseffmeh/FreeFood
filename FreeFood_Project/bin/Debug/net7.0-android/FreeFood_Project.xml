@@ -65,9 +65,16 @@
         </member>
         <member name="T:FreeFood_Project.ViewModel.DetailBoxesViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:FreeFood_Project.ViewModel.DetailBoxesViewModel.Box">
             <inheritdoc cref="F:FreeFood_Project.ViewModel.DetailBoxesViewModel.box"/>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.DetailBoxesViewModel.addFavoritesCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.DetailBoxesViewModel.AddFavoritesCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.DetailBoxesViewModel.AddFavoritesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.DetailBoxesViewModel.AddFavorites(System.String)"/>.</summary>
         </member>
         <member name="T:FreeFood_Project.ViewModel.DetailCompanyViewModel">
             <inheritdoc/>
@@ -124,6 +131,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.User_id">
             <inheritdoc cref="F:FreeFood_Project.ViewModel.MainUserViewModel.user_id"/>
@@ -144,7 +152,7 @@
             <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompanyCommand"/>.</summary>
         </member>
         <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompanyCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompany(FreeFood_Project.Cards.CompanyCard)"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToDetailCompany(FreeFood_Project.Model.Company)"/>.</summary>
         </member>
         <member name="F:FreeFood_Project.ViewModel.MainUserViewModel.goToAllBoxesPageCommand">
             <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllBoxesPageCommand"/>.</summary>
@@ -157,6 +165,12 @@
         </member>
         <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllCompanyPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GoToAllCompanyPage(System.Collections.ObjectModel.ObservableCollection{FreeFood_Project.Cards.CompanyCard})"/>.</summary>
+        </member>
+        <member name="F:FreeFood_Project.ViewModel.MainUserViewModel.getAllCompanyCommand">
+            <summary>The backing field for <see cref="P:FreeFood_Project.ViewModel.MainUserViewModel.GetAllCompanyCommand"/>.</summary>
+        </member>
+        <member name="P:FreeFood_Project.ViewModel.MainUserViewModel.GetAllCompanyCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FreeFood_Project.ViewModel.MainUserViewModel.GetAllCompany"/>.</summary>
         </member>
         <member name="T:FreeFood_Project.ViewModel.MainViewModel">
             <inheritdoc/>

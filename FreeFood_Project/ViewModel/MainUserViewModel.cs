@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using FreeFood_Project.Cards;
+using FreeFood_Project.Model;
 using FreeFood_Project.UserPages;
 using System;
 using System.Collections.Generic;
@@ -12,13 +13,14 @@ using System.Threading.Tasks;
 namespace FreeFood_Project.ViewModel;
 
 [QueryProperty("User_id", "user_id")]
+[QueryProperty("Companies", "Companies")]
 public partial class MainUserViewModel : ObservableObject
 {
     [ObservableProperty]
     string user_id;
 
     [ObservableProperty]
-    public ObservableCollection<CompanyCard> companies;
+    public ObservableCollection<Company> companies;
     //public GlobalDataViewModel globalData;
 
     [ObservableProperty]
@@ -26,15 +28,15 @@ public partial class MainUserViewModel : ObservableObject
 
     public MainUserViewModel()
     {
-        Companies = new ObservableCollection<CompanyCard> {
-            new CompanyCard{Name = "КФС", Address="г.Уфа"},
-            new CompanyCard{Name = "Вкусно и точка", Address="г.Уфа"},
-            new CompanyCard{Name = "Бургер Кинг", Address="г.Уфа"},
-            new CompanyCard{Name = "Мастер и Маргарита", Address="г.Уфа"},
-            new CompanyCard{Name = "Шахта Бургер", Address="г.Уфа"},
-            new CompanyCard{Name = "Перчини", Address="г.Уфа"},
-            new CompanyCard{Name = "Сирийская шаурма", Address="г.Уфа"},
-       };
+       // Companies = new ObservableCollection<CompanyCard> {
+       //     new CompanyCard{Name = "КФС", Address="г.Уфа"},
+       //     new CompanyCard{Name = "Вкусно и точка", Address="г.Уфа"},
+       //     new CompanyCard{Name = "Бургер Кинг", Address="г.Уфа"},
+       //     new CompanyCard{Name = "Мастер и Маргарита", Address="г.Уфа"},
+       //     new CompanyCard{Name = "Шахта Бургер", Address="г.Уфа"},
+       //     new CompanyCard{Name = "Перчини", Address="г.Уфа"},
+       //     new CompanyCard{Name = "Сирийская шаурма", Address="г.Уфа"},
+       //};
 
         Boxes = new ObservableCollection<BoxCard>
         {
@@ -43,6 +45,7 @@ public partial class MainUserViewModel : ObservableObject
             new BoxCard{Name="На хайпе бокс",Describe="Продукты из Магнита", Price="300р."},
             new BoxCard{Name="Нормальный бокс",Describe="Продукты из магазинов", Price="150р."}
         };
+
     }
 
     [RelayCommand]
@@ -61,7 +64,7 @@ public partial class MainUserViewModel : ObservableObject
     }
 
     [RelayCommand]
-    async Task GoToDetailCompany(CompanyCard company)
+    async Task GoToDetailCompany(Company company)
     {
         if (company is null)
         {
@@ -103,6 +106,22 @@ public partial class MainUserViewModel : ObservableObject
             {
                 {"Companies", companies}
             });
+    }
+
+
+    [RelayCommand]
+    async Task GetAllCompany()
+    {
+        var response = await App.globalDataApp.HttpClient.GetAsync($"http://87.239.106.199:61742/api/User/Company");
+        //HttpClient httpClient = new HttpClient();
+
+        string json = await response.Content.ReadAsStringAsync();
+
+        //var values = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+
+        var status = (int)response.StatusCode;
+
+
     }
 }
 

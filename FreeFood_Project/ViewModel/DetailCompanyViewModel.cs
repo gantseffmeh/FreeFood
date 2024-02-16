@@ -1,5 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using FreeFood_Project.Cards;
+using FreeFood_Project.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,5 @@ namespace FreeFood_Project.ViewModel;
 public partial class DetailCompanyViewModel : ObservableObject
 {
     [ObservableProperty]
-    CompanyCard company;
+    Company company;
 }

@@ -10,13 +10,13 @@
              Shell.TitleColor="Black">
     
     <VerticalStackLayout>
-        <Label Margin="20" Text="{Binding Company.Name}" FontSize="30" TextColor="Black" HorizontalOptions="Center"/>
+        <Label Margin="20" Text="{Binding Company.CompanyName}" FontSize="30" TextColor="Black" HorizontalOptions="Center"/>
         <Image Source="company_icon.png" VerticalOptions="Center" HorizontalOptions="Center" HeightRequest="125" WidthRequest="125"/>
-        <Grid
+        <!--<Grid
             ColumnDefinitions="Auto,*"
             Padding="20">
             <Label FontSize="17" Grid.Column="0" Text="Описание:   " FontAttributes="Bold" TextColor="Black"/>
             <Label FontSize="17" Grid.Column="1" Text="{Binding Company.Address}" TextColor="Black"/>
-        </Grid>
+        </Grid>-->
     </VerticalStackLayout>
 </ContentPage>

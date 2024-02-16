@@ -10,7 +10,7 @@
              Shell.NavBarIsVisible="False">
 
     <VerticalStackLayout>
-        <Label Text="Избранное" FontSize="40" TextColor="Black" HorizontalOptions="Center"/>
+        <Label Text="Избранное" FontSize="40" TextColor="#5fd332" HorizontalOptions="Center" Padding="20"/>
         <CollectionView 
                         Grid.Row="1"
                         Grid.ColumnSpan="2"
@@ -22,18 +22,24 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="cards:BoxCard">
                     <Grid Padding="10">
-                        <Frame HeightRequest="123">
+                        <Frame HeightRequest="123" BackgroundColor="#f4e4cd">
                             <Grid Padding="0"
-                                  ColumnDefinitions="80,200">
-                                <Image Source="box_icon.png"
+                                  ColumnDefinitions="100,200">
+                                <Border WidthRequest="90"
+                                        HeightRequest="90"
+                                        StrokeThickness="4"
+                                        StrokeShape="RoundRectangle 50">
+                                    
+                                    <Image Source="box_icon.png"
                                            Aspect="AspectFill"
-                                           HeightRequest="125"
-                                           WidthRequest="125"/>
+                                           HeightRequest="90"
+                                           WidthRequest="90"/>
+                                </Border>
+                                
                                 <VerticalStackLayout Grid.Column="1"
                                                          Padding="10">
-                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="Black" HorizontalOptions="Center"/>
-                                    <Label Text="{Binding Describe}" FontSize="13" TextColor="Black" HorizontalOptions="Center"/>
-                                    <Label Text="{Binding Price}" FontSize="10" TextColor="Black" HorizontalOptions="Center"/>
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+                                    <Label Text="{Binding Price}" FontSize="15" TextColor="#8a42d2" HorizontalOptions="Center"/>
 
                                 </VerticalStackLayout>
                             </Grid>
@@ -43,5 +49,58 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <Grid RowDefinitions="30,*"
+              Margin="10">
+            <Label 
+                Grid.Row="0" 
+                Text="Рекомендуем"
+                TextColor="#5fd332"
+                Margin="15,0"
+                FontSize="20"/>
+            <CollectionView 
+                Grid.Row="1"
+                Grid.ColumnSpan="2"
+                BackgroundColor="Transparent"
+        
+                ItemsSource="{Binding Boxes}"
+                SelectionMode="None"
+                
+                >       
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="cards:BoxCard">
+                        <Grid Padding="10">
+                            <Frame HeightRequest="123" BackgroundColor="#f4e4cd">
+                                <Grid Padding="0"
+                  ColumnDefinitions="100,200">
+                                    <Border WidthRequest="90"
+                        HeightRequest="90"
+                        StrokeThickness="4"
+                        StrokeShape="RoundRectangle 50">
+
+                                        <Image Source="box_icon.png"
+                           Aspect="AspectFill"
+                           HeightRequest="90"
+                           WidthRequest="90"/>
+                                    </Border>
+
+                                    <VerticalStackLayout Grid.Column="1"
+                                         Padding="10">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="20" TextColor="Black" HorizontalOptions="Center"/>
+                                        <Label Text="{Binding Price}" FontSize="15" TextColor="#8a42d2" HorizontalOptions="Center"/>
+
+                                    </VerticalStackLayout>
+                                </Grid>
+
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        
     </VerticalStackLayout>
 </ContentPage>

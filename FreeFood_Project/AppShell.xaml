@@ -24,6 +24,10 @@
                       ContentTemplate="{DataTemplate userpages:FavouritesUserPage}"
                       Icon="favourites_icon.png"
                       Route="FavouritesUserPage"/>
+        <ShellContent Title="Покупки" 
+              ContentTemplate="{DataTemplate userpages:FavouritesUserPage}"
+              Icon="store_icon.png"
+              Route="FavouritesUserPage"/>
         <ShellContent Title="Профиль" 
                       ContentTemplate="{DataTemplate userpages:ProfileUserPage}"
                       Icon="profile_icon.png"

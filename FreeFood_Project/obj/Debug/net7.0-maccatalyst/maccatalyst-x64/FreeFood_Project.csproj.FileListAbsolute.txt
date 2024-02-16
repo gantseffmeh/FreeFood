@@ -1,267 +1,541 @@
-D:\Projects VS\FreeFood\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.runtimeconfig.json
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.pdb
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\CommunityToolkit.Mvvm.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Logging.Debug.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Options.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Extensions.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.CSharp.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Win32.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Win32.Registry.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.AppContext.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Buffers.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Collections.Concurrent.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Collections.Immutable.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Collections.NonGeneric.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Collections.Specialized.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Collections.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.Annotations.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.DataAnnotations.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.EventBasedAsync.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.TypeConverter.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ComponentModel.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Configuration.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Console.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Core.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.Common.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.DataSetExtensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Data.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Contracts.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Debug.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.DiagnosticSource.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.FileVersionInfo.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Process.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.StackTrace.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.TextWriterTraceListener.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Tools.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.TraceSource.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Diagnostics.Tracing.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Drawing.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Drawing.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Dynamic.Runtime.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Formats.Asn1.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Formats.Tar.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Globalization.Calendars.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Globalization.Extensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Globalization.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Compression.Brotli.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Compression.FileSystem.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Compression.ZipFile.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Compression.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.AccessControl.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.DriveInfo.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.Watcher.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.FileSystem.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.IsolatedStorage.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.MemoryMappedFiles.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.AccessControl.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.Pipes.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.UnmanagedMemoryStream.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.IO.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Expressions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Parallel.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.Queryable.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Linq.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Memory.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Http.Json.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Http.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.HttpListener.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Mail.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.NameResolution.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.NetworkInformation.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Ping.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Quic.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Requests.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Security.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.ServicePoint.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.Sockets.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebClient.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebHeaderCollection.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebProxy.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.Client.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Net.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Numerics.Vectors.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Numerics.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ObjectModel.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.DataContractSerialization.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.Uri.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.Xml.Linq.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.Xml.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.DispatchProxy.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.ILGeneration.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.Lightweight.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.Emit.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.Extensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.Metadata.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.TypeExtensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Reflection.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Resources.Reader.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Resources.ResourceManager.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Resources.Writer.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.CompilerServices.Unsafe.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.CompilerServices.VisualC.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Extensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Handles.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.JavaScript.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.RuntimeInformation.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.InteropServices.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Intrinsics.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Loader.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Numerics.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Formatters.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Json.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.Xml.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.Serialization.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Runtime.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.AccessControl.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Claims.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Algorithms.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Cng.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Csp.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Encoding.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.OpenSsl.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.Primitives.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.X509Certificates.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Cryptography.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Principal.Windows.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.Principal.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.SecureString.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Security.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ServiceModel.Web.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ServiceProcess.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.CodePages.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.Extensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Text.Encoding.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Text.Encodings.Web.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Text.Json.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Text.RegularExpressions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Channels.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Overlapped.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Dataflow.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Extensions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.Parallel.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Tasks.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Thread.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.ThreadPool.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.Timer.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Threading.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Transactions.Local.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Transactions.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.ValueTuple.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Web.HttpUtility.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Web.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Windows.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.Linq.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.ReaderWriter.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.Serialization.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XDocument.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.XDocument.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XPath.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XmlDocument.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.XmlSerializer.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Xml.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\WindowsBase.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\mscorlib.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\netstandard.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Compatibility.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.Xaml.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt.dat
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_CJK.dat
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_EFIGS.dat
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\icudt_no_CJK.dat
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.IO.Compression.Native.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.Native.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.Native.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.Net.Security.Native.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.Net.Security.Native.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.Security.Cryptography.Native.Apple.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libSystem.Security.Cryptography.Native.Apple.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libicudata.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libicui18n.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libicuuc.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-debugger-static.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-debugger-stub-static.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-static.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-diagnostics_tracing-stub-static.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-static.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmono-component-hot_reload-stub-static.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libmonosgen-2.0.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\Microsoft.MacCatalyst.registrar.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-debug.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
-D:\Projects VS\FreeFood_Project\FreeFood_Project\bin\Debug\net7.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauifont.inputs
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauisplash.inputs
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauisplash.stamp
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\box_icon.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\company_icon.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\email.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\favourites_icon.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\mobile.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\offer_icon.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\password.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\profile_icon.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\user.png
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\mauifont.stamp
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\actool\_PartialAppManifest.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\actool\_BundleResourceWithLogicalName.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\actool\_ProcessedImageAssetsPath.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\coremlc\_PartialAppManifest.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\coremlc\_BundleResourceWithLogicalName.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\coremlc\_ProcessedCoreMLModelsPath.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\_ProcessedBundleResourcesPath.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\_ProcessedContentPath.items
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.csproj.AssemblyReference.cache
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.AssemblyInfoInputs.cache
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.AssemblyInfo.cs
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.csproj.CoreCompileInputs.cache
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\XamlC.stamp
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.csproj.CopyComplete
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\refint\FreeFood_Project.dll
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.pdb
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\FreeFood_Project.genruntimeconfig.cache
-D:\Projects VS\FreeFood_Project\FreeFood_Project\obj\Debug\net7.0-maccatalyst\maccatalyst-x64\ref\FreeFood_Project.dll
+D:/Projects VS/FreeFood/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmonosgen-2.0.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.runtimeconfig.json
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.pdb
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/CommunityToolkit.Mvvm.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Configuration.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.DependencyInjection.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Logging.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Logging.Abstractions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Logging.Debug.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Options.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Graphics.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.CSharp.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.VisualBasic.Core.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.VisualBasic.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Win32.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Win32.Registry.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.AppContext.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Buffers.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.Concurrent.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.Immutable.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.NonGeneric.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.Specialized.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.Annotations.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.DataAnnotations.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.EventBasedAsync.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.TypeConverter.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Configuration.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Console.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Core.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Data.Common.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Data.DataSetExtensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Data.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Contracts.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Debug.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.DiagnosticSource.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.FileVersionInfo.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Process.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.StackTrace.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.TextWriterTraceListener.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Tools.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.TraceSource.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Tracing.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Drawing.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Drawing.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Dynamic.Runtime.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Formats.Asn1.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Formats.Tar.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Globalization.Calendars.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Globalization.Extensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Globalization.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.Brotli.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.FileSystem.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.ZipFile.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.AccessControl.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.DriveInfo.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.Watcher.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.IsolatedStorage.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.MemoryMappedFiles.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Pipes.AccessControl.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Pipes.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.UnmanagedMemoryStream.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.Expressions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.Parallel.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.Queryable.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Memory.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Http.Json.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Http.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.HttpListener.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Mail.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.NameResolution.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.NetworkInformation.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Ping.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Quic.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Requests.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Security.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.ServicePoint.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Sockets.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebClient.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebHeaderCollection.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebProxy.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebSockets.Client.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebSockets.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Numerics.Vectors.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Numerics.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ObjectModel.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.DataContractSerialization.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.Uri.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.Xml.Linq.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.Xml.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.DispatchProxy.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Emit.ILGeneration.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Emit.Lightweight.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Emit.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Extensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Metadata.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.TypeExtensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Resources.Reader.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Resources.ResourceManager.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Resources.Writer.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.CompilerServices.Unsafe.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.CompilerServices.VisualC.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Extensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Handles.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.JavaScript.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.RuntimeInformation.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Intrinsics.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Loader.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Numerics.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Formatters.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Json.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Xml.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.AccessControl.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Claims.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Algorithms.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Cng.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Csp.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Encoding.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.OpenSsl.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Primitives.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.X509Certificates.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Principal.Windows.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Principal.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.SecureString.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ServiceModel.Web.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ServiceProcess.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encoding.CodePages.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encoding.Extensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encoding.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encodings.Web.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Json.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.RegularExpressions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Channels.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Overlapped.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.Dataflow.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.Extensions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.Parallel.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Thread.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.ThreadPool.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Timer.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Transactions.Local.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Transactions.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ValueTuple.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Web.HttpUtility.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Web.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Windows.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.Linq.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.ReaderWriter.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.Serialization.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XDocument.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XPath.XDocument.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XPath.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XmlDocument.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XmlSerializer.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/WindowsBase.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/mscorlib.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/netstandard.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.MacCatalyst.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Controls.Compatibility.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Controls.Xaml.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Controls.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Essentials.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.CoreLib.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt.dat
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt_CJK.dat
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt_EFIGS.dat
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt_no_CJK.dat
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.IO.Compression.Native.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.IO.Compression.Native.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Native.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Native.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Net.Security.Native.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Net.Security.Native.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Security.Cryptography.Native.Apple.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Security.Cryptography.Native.Apple.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libicudata.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libicui18n.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libicuuc.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-debugger-static.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-debugger-stub-static.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-diagnostics_tracing-static.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-diagnostics_tracing-stub-static.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-hot_reload-static.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-hot_reload-stub-static.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmonosgen-2.0.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmonosgen-2.0.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.MacCatalyst.registrar.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet-debug.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet-debug.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet.a
+D:/Projects VS/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet.dylib
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauiimage.inputs
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauifont.inputs
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauisplash.inputs
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauisplash.stamp
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon20x20@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon20x20@3x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon29x29@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon29x29@3x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon40x40@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon40x40@3x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon60x60@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon60x60@3x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon76x76@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon83.5x83.5@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appiconItunesArtwork.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/Contents.json
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot@2x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot@3x.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/box_icon.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/company_icon.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/email.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/favourites_icon.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/mobile.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/offer_icon.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/password.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/profile_icon.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/user.png
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauiimage.stamp
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauifont.stamp
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/_PartialAppManifest.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/_BundleResourceWithLogicalName.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/_ProcessedImageAssetsPath.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/coremlc/_PartialAppManifest.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/coremlc/_BundleResourceWithLogicalName.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/coremlc/_ProcessedCoreMLModelsPath.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/_ProcessedBundleResourcesPath.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/_ProcessedContentPath.items
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.csproj.AssemblyReference.cache
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.GeneratedMSBuildEditorConfig.editorconfig
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.AssemblyInfoInputs.cache
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.AssemblyInfo.cs
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.csproj.CoreCompileInputs.cache
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/XamlC.stamp
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.csproj.CopyComplete
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/refint/FreeFood_Project.dll
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.pdb
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.genruntimeconfig.cache
+D:/Projects VS/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/ref/FreeFood_Project.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.runtimeconfig.json
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.pdb
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/CommunityToolkit.Mvvm.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Configuration.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.DependencyInjection.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Logging.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Logging.Debug.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Options.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Extensions.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Graphics.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Newtonsoft.Json.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.CSharp.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.VisualBasic.Core.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.VisualBasic.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Win32.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Win32.Registry.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.AppContext.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Buffers.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.Concurrent.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.Immutable.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.NonGeneric.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.Specialized.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Collections.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.Annotations.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.DataAnnotations.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.EventBasedAsync.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.TypeConverter.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ComponentModel.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Configuration.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Console.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Core.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Data.Common.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Data.DataSetExtensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Data.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Contracts.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Debug.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.DiagnosticSource.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.FileVersionInfo.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Process.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.StackTrace.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.TextWriterTraceListener.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Tools.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.TraceSource.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Diagnostics.Tracing.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Drawing.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Drawing.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Dynamic.Runtime.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Formats.Asn1.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Formats.Tar.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Globalization.Calendars.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Globalization.Extensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Globalization.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.Brotli.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.FileSystem.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.ZipFile.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Compression.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.AccessControl.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.DriveInfo.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.Watcher.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.FileSystem.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.IsolatedStorage.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.MemoryMappedFiles.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Pipes.AccessControl.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.Pipes.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.UnmanagedMemoryStream.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.IO.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.Expressions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.Parallel.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.Queryable.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Linq.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Memory.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Http.Json.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Http.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.HttpListener.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Mail.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.NameResolution.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.NetworkInformation.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Ping.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Quic.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Requests.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Security.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.ServicePoint.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.Sockets.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebClient.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebHeaderCollection.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebProxy.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebSockets.Client.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.WebSockets.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Net.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Numerics.Vectors.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Numerics.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ObjectModel.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.DataContractSerialization.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.Uri.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.Xml.Linq.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.Xml.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.DispatchProxy.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Emit.ILGeneration.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Emit.Lightweight.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Emit.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Extensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Metadata.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.TypeExtensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Reflection.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Resources.Reader.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Resources.ResourceManager.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Resources.Writer.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.CompilerServices.Unsafe.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.CompilerServices.VisualC.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Extensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Handles.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.JavaScript.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.RuntimeInformation.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.InteropServices.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Intrinsics.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Loader.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Numerics.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Formatters.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Json.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.Xml.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.Serialization.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Runtime.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.AccessControl.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Claims.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Algorithms.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Cng.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Csp.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Encoding.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.OpenSsl.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.Primitives.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.X509Certificates.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Cryptography.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Principal.Windows.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.Principal.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.SecureString.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Security.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ServiceModel.Web.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ServiceProcess.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encoding.CodePages.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encoding.Extensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encoding.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Encodings.Web.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.Json.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Text.RegularExpressions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Channels.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Overlapped.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.Dataflow.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.Extensions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.Parallel.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Tasks.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Thread.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.ThreadPool.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.Timer.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Threading.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Transactions.Local.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Transactions.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.ValueTuple.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Web.HttpUtility.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Web.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Windows.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.Linq.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.ReaderWriter.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.Serialization.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XDocument.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XPath.XDocument.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XPath.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XmlDocument.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.XmlSerializer.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Xml.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/WindowsBase.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/mscorlib.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/netstandard.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.MacCatalyst.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Controls.Compatibility.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Controls.Xaml.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Controls.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.Maui.Essentials.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/System.Private.CoreLib.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt.dat
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt_CJK.dat
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt_EFIGS.dat
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/icudt_no_CJK.dat
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.IO.Compression.Native.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.IO.Compression.Native.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Native.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Native.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Net.Security.Native.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Net.Security.Native.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Security.Cryptography.Native.Apple.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libSystem.Security.Cryptography.Native.Apple.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libicudata.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libicui18n.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libicuuc.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-debugger-static.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-debugger-stub-static.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-diagnostics_tracing-static.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-diagnostics_tracing-stub-static.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-hot_reload-static.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmono-component-hot_reload-stub-static.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmonosgen-2.0.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libmonosgen-2.0.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/Microsoft.MacCatalyst.registrar.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet-debug.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet-debug.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet.a
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/bin/Debug/net7.0-maccatalyst/maccatalyst-x64/libxamarin-dotnet.dylib
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauiimage.inputs
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauifont.inputs
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauisplash.inputs
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauisplash.stamp
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon20x20@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon20x20@3x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon29x29@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon29x29@3x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon40x40@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon40x40@3x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon60x60@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon60x60@3x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon76x76@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appicon83.5x83.5@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/appiconItunesArtwork.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Assets.xcassets/appicon.appiconset/Contents.json
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot@2x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/dotnet_bot@3x.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/box_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/company_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/email.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/favourites_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/free_food_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/like_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/mobile.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/offer_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/password.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/profile_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/refresh_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/store_icon.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/r/Resources/user.png
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauiimage.stamp
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/f/MauiInfo.plist
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mauifont.stamp
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/f/OpenSans-Regular.ttf
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/resizetizer/f/OpenSans-Semibold.ttf
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/_PartialAppManifest.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/_BundleResourceWithLogicalName.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/actool/_ProcessedImageAssetsPath.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/coremlc/_PartialAppManifest.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/coremlc/_BundleResourceWithLogicalName.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/_ProcessedBundleResourcesPath.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/_ProcessedContentPath.items
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.csproj.AssemblyReference.cache
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.GeneratedMSBuildEditorConfig.editorconfig
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.AssemblyInfoInputs.cache
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.AssemblyInfo.cs
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.csproj.CoreCompileInputs.cache
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/XamlC.stamp
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.csproj.CopyComplete
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/refint/FreeFood_Project.dll
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.pdb
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/FreeFood_Project.genruntimeconfig.cache
+/Users/iskander/Documents/FreeFood_Project/FreeFood_Project/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/ref/FreeFood_Project.dll
